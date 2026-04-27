@@ -1,0 +1,25 @@
+{
+  "_comment": "4 CUAD categories, Indemnification removed due to mismatch between CUAD gold annotations and extracted clause definitions (discussed in paper).",
+  "categories": [
+    {
+      "id": "governing_law",
+      "name": "Governing Law",
+      "description": "The law governing the interpretation and enforcement of the contract."
+    },
+    {
+      "id": "termination_for_convenience",
+      "name": "Termination for Convenience",
+      "description": "A party's right to terminate the contract without cause, typically with notice."
+    },
+    {
+      "id": "liability_cap",
+      "name": "Liability Cap",
+      "description": "A contractual limit on the amount or types of damages one party can recover from the other."
+    },
+    {
+      "id": "ip_assignment",
+      "name": "IP Ownership Assignment",
+      "description": "Provisions specifying which party owns intellectual property created or used under the contract."
+    }
+  ]
+}

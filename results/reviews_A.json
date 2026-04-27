@@ -1,0 +1,625 @@
+[
+  {
+    "contract_id": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT",
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "classified_category": "Governing Law",
+        "text": "This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "i-on will not be liable under any circumstances for any lost profits or other consequential damages, even if i-on has been advised as to the possibility of such damages. i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
+        "confidence": "high",
+        "risk_level": "high",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      }
+    ],
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida."
+      ],
+      "Termination for Convenience": [
+        "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice."
+      ],
+      "Liability Cap": [
+        "i-on will not be liable under any circumstances for any lost profits or other consequential damages, even if i-on has been advised as to the possibility of such damages. i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees."
+      ]
+    }
+  },
+  {
+    "contract_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT",
+    "clauses": [],
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement shall be governed by the laws of the State of Texas, without reference to its conflicts of law principles."
+      ],
+      "Termination for Convenience": [
+        "Either Consultant or Company may terminate this Agreement upon prior written notice thereof to the other party."
+      ],
+      "IP Ownership Assignment": [
+        "Consultant hereby irrevocably assigns to Company all right, title and interest in and to any information (including, without limitation, business plans and/or business information), technology, know-how, materials, notes, records, designs, ideas, inventions, improvements, devices, developments, discoveries, compositions, trade secrets, processes, methods and/or techniques, whether or not patentable or copyrightable, that are conceived, reduced to practice or made by Consultant alone or jointly with others in the course of performing the Services or through the use of Confidential Information (collectively, 111nventions\").",
+        "to execute and file any such applications and to do all other lawfully permitted acts to further the prosecution and issuance of such intellectual property rights thereon with the same legal force and effect as if executed by Consultant.",
+        "Consultant agrees to sign, execute and acknowledge or cause to be signed, executed and acknowledged without cost, but at the expense of Company, any and all documents and to perform such acts as my be necessary, useful or convenient for the purposes of perfecting the foregoing assignments and obtaining, enforcing and defending intellectual property rights in any and all countries with respect to Inventions.",
+        "Consultant agrees that if Company is unable because of Consultant's unavailability, mental or physical incapacity, or for any other reason, to secure Consultant's signature to apply for or to pursue any application or registration for any intellectual property rights covering any Invention, then Consultant hereby irrevocably designates and appoints Company and its duly authorized officers and agents as Consultant's agent and attorney-in-fact, to act for and in Consultant's behalf"
+      ]
+    }
+  },
+  {
+    "contract_id": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement",
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "classified_category": "Governing Law",
+        "text": "This Agreement and any and all matters arising directly or indirectly herefrom shall be governed by and construed and enforced in accordance with the internal laws of the [***] applicable to agreements made and to be performed entirely in such state, including its statutes of limitation but without giving effect to the conflict of law principles thereof.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "Either Party shall have the right to terminate this Agreement before the end of the Term for its convenience upon [***] written notice to the other Party (and any such termination shall become effective at the end of such [***]); [***].",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "NOTWITHSTANDING ANY OTHER PROVISION CONTAINED HEREIN (OTHER THAN AS SET FORTH IN THE SECOND SENTENCE OF THIS SECTION 11.4), IN NO EVENT SHALL DOVA (OR ITS AFFILIATES) OR VALEANT (OR ITS AFFILIATES) BE LIABLE TO THE OTHER OR ANY OF THE OTHER PARTY'S AFFILIATES FOR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, SPECIAL, PUNITIVE OR EXEMPLARY DAMAGES (INCLUDING LOST PROFITS) SUFFERED OR INCURRED BY SUCH OTHER PARTY OR ITS AFFILIATES THAT ARISE OUT OF OR RELATE TO THIS AGREEMENT OR IN CONNECTION WITH A BREACH OR ALLEGED BREACH OF THIS AGREEMENT, WHETHER IN CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, AND REGARDLESS OF ANY NOTICE OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING SENTENCE SHALL NOT LIMIT (1) THE OBLIGATIONS OF EITHER PARTY TO INDEMNIFY THE OTHER PARTY FROM AND AGAINST THIRD PARTY CLAIMS UNDER SECTION 11.1 OR 11.2, AS APPLICABLE, OR (2) DAMAGES AVAILABLE FOR A PARTY'S BREACH OF THE CONFIDENTIALITY AND NON-USE OBLIGATIONS IN ARTICLE 9.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "Subject to the terms of Section 8.1.1, Dova shall have and retain sole and exclusive right, title and interest in and to all inventions, developments, discoveries, writings, trade secrets, Know-How, methods, practices, procedures, designs, improvements and other technology, whether or not patentable or copyrightable, and any patent applications, patents, or copyrights based thereon (collectively, \"Intellectual Property\") relating to the Product that are (i) owned or controlled by Dova as of the Effective Date, (ii) made, discovered, conceived, reduced to practice or generated by Dova (or its employees or representatives) during the Term, or (iii) made, discovered, conceived, reduced to practice or generated by Valeant (or its employees or representatives) in performing its activities pursuant to this Agreement to the extent primarily related to the Product or which is otherwise derived from the Confidential Information of Dova (\"Inventions\"). Valeant agrees to assign, and hereby does assign, to Dova (and shall cause its Affiliates and its and their respective employees and other representatives to assign to Dova) any and all right, title and interest that Valeant (or any such Affiliates, employees or other representatives) may have in or to any Invention.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "The ownership, and all goodwill from the use, of any Dova Trademarks and Copyrights shall at all times vest in and inure to the benefit of Dova, and Valeant shall assign, and hereby does assign, any rights it may have in the foregoing to Dova.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "As between the Parties, Dova shall own all right, title and interest in and to any Product Materials (and all content contained therein) and any Product Labeling (and all content contained therein), including applicable copyrights and trademarks (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling), and to the extent Valeant (or any of its Affiliates) obtains or otherwise has a claim to any of the foregoing, Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content) (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling) to Dova and Valeant agrees to (and shall cause its applicable Affiliate to) execute all documents and take all actions as are reasonably requested by Dova to vest title to such Product Materials (and content) and Product Labeling (and content) in Dova (or its designated Affiliate).",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      }
+    ],
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement and any and all matters arising directly or indirectly herefrom shall be governed by and construed and enforced in accordance with the internal laws of the [***] applicable to agreements made and to be performed entirely in such state, including its statutes of limitation but without giving effect to the conflict of law principles thereof."
+      ],
+      "Termination for Convenience": [
+        "Either Party shall have the right to terminate this Agreement before the end of the Term for its convenience upon [***] written notice to the other Party (and any such termination shall become effective at the end of such [***]); [***]."
+      ],
+      "IP Ownership Assignment": [
+        "As between the Parties, Dova shall own all right, title and interest in and to any Product Materials (and all content contained therein) and any Product Labeling (and all content contained therein), including applicable copyrights and trademarks (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling), and to the extent Valeant (or any of its Affiliates) obtains or otherwise has a claim to any of the foregoing, Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content) (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling) to Dova and Valeant agrees to (and shall cause its applicable Affiliate to) execute all documents and take all actions as are reasonably requested by Dova to vest title to such Product Materials (and content) and Product Labeling (and content) in Dova (or its designated Affiliate).",
+        "The ownership, and all goodwill from the use, of any Dova Trademarks and Copyrights shall at all times vest in and inure to the benefit of Dova, and Valeant shall assign, and hereby does assign, any rights it may have in the foregoing to Dova.",
+        "Valeant agrees to assign, and hereby does assign, to Dova (and shall cause its Affiliates and its and their respective employees and other representatives to assign to Dova) any and all right, title and interest that Valeant (or any such Affiliates, employees or other representatives) may have in or to any Invention."
+      ],
+      "Liability Cap": [
+        "Notwithstanding the above, the sole remedy of Dova for breach of this Section 4.1.2 shall be (i) the adjustment to the promotion fee as set forth in Section 6.1.2 and (ii) the termination right set out in Section 12.2.2.",
+        "NOTWITHSTANDING ANY OTHER PROVISION CONTAINED HEREIN (OTHER THAN AS SET FORTH IN THE SECOND SENTENCE OF THIS SECTION 11.4), IN NO EVENT SHALL DOVA (OR ITS AFFILIATES) OR VALEANT (OR ITS AFFILIATES) BE LIABLE TO THE OTHER OR ANY OF THE OTHER PARTY'S AFFILIATES FOR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, SPECIAL, PUNITIVE OR EXEMPLARY DAMAGES (INCLUDING LOST PROFITS) SUFFERED OR INCURRED BY SUCH OTHER PARTY OR ITS AFFILIATES THAT ARISE OUT OF OR RELATE TO THIS AGREEMENT OR IN CONNECTION WITH A BREACH OR ALLEGED BREACH OF THIS AGREEMENT, WHETHER IN CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, AND REGARDLESS OF ANY NOTICE OF THE POSSIBILITY OF SUCH DAMAGES."
+      ]
+    }
+  },
+  {
+    "contract_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT ",
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "classified_category": "Governing Law",
+        "text": "This Agreement and the relationship between the Parties shall be governed by, and interpreted in accordance with New York law without regard to provisions related to conflicts of laws, and, except as provided in Section 21.2 above, the Parties agree to submit any dispute to the exclusive jurisdiction of the federal and state courts sitting in New York.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "EKR may terminate this Agreement for convenience at any time upon [**] ([**]) days prior, written notice to PPI.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "Notwithstanding the foregoing, this Agreement can be terminated by EKR at the end of the Initial Term by delivery of written notice to PPI at least one hundred eighty (180) days prior to the end of the Initial Term or any renewal term.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "Any and all liability of PPI to EKR howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance, in contract tort or otherwise, shall be limited (except for death or personal injury caused by the negligence of PPI or its employees while acting in the course of their employment) to [**] US Dollars ($[**]); provided however that such limitation shall not apply to the extent that EKR or any EKR Indemnified Party is required to pay in excess of such amount to a third party in respect of a final judgment or order obtained by the third party or as a result of PPI's breach of Section 7.2.12 of the Supply Agreement.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "Any and all liability of EKR to PPI howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance in contract tort or otherwise shall be limited (except for death or personal injury caused by the negligence of EKR or its employees while acting in the course of their employment, and except in relation to any specified payment, lump sum, milestone or royalty payment unpaid) to [**] US Dollars ($[**]); provided however that such limitation shall not apply to the extent that PPI or any PPI Indemnified Party is required to pay in excess of such amount to a third party in respect of a final judgment or order obtained by the third party.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "Notwithstanding anything contained in this Agreement or the Transition Services and Inventory Agreement or the Supply Agreement in no circumstance shall either Party be liable to the other in contract, tort (including negligence or breach of statutory duty) or otherwise howsoever, and whatever the cause thereof, for any special, indirect or consequential loss or damage of any nature whatsoever except in the cases of fraud or intentional misconduct or in the case of PPI as a result of PPI's breach of Section 7.2.12 of the Supply Agreement.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "PPI Improvements shall be owned by PPI and be licensed to EKR hereunder. EKR Improvements shall be owned by EKR and upon termination of this Agreement by PPI pursuant to Section, shall be deemed be licensed to PPI on a worldwide, non-exclusive, irrevocable basis, at a royalty or for such other consideration as may be mutually agreed upon by the parties in writing. Joint Improvements shall be owned jointly by the Parties, and PPI's interest therein shall be licensed to EKR hereunder.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "Effective as of the Agreement Date, PPI hereby sells, transfers, conveys and assigns to EKR all right, title and interest in and to [**] (the \"Transferred NDA\").",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "In consideration of and subject to EKR's payment of the Equipment Purchase Price (as defined below), effective as of the Agreement Date, PPI hereby sells, transfers, conveys and assigns to EKR all right, title and interest in and to the equipment described on Schedule XII (the \"Transferred Equipment\").",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "Except as set out in this Agreement, all right, title and interest in the PPI IP or Trademarks shall belong to PPI and EKR shall not have any right, title or interest in the PPI IP or Trademarks.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      }
+    ],
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement and the relationship between the Parties shall be governed by, and interpreted in accordance with New  York law without regard to provisions related to conflicts of laws, and, except as provided in Section 21.2 above, the Parties agree to submit  any dispute to the exclusive jurisdiction of the federal and state courts sitting in New York."
+      ],
+      "Termination for Convenience": [
+        "At any time after July 1, 2015, PPI shall have the right, exercisable upon sixty (60) days prior written notice to EKR, to terminate the Lease Term and repurchase the Transferred Equipment from EKR, subject to payment by PPI to EKR within five (5) days of such  notice of any principal paid by EKR under the Promissory Note, which if exercised shall result in the termination of the Step-in Right  set forth in Section 17.5.",
+        "At any time between the Agreement Date and July 1, 2015, EKR shall have the right, exercisable upon sixty (60) days prior written  notice to PPI, to terminate the Lease Term and sell the Transferred Equipment back to PPI, subject to payment by PPI to EKR within  five (5) days of such notice of $[**] in cash, which if exercised shall result in (i) an offset against the unpaid balance of principal and  interest under the Promissory Note pursuant to Section 3.20(f) below; and (ii) the termination of the Step-in Right described in  Section 17.5.",
+        "EKR may terminate this Agreement for convenience at any time upon [**] ([**]) days prior, written notice to PPI."
+      ],
+      "IP Ownership Assignment": [
+        "Upon termination of this Agreement for any reason except by EKR pursuant to Section 16.1(a), EKR shall promptly transfer the Transferred NDA and related regulatory documentation to PPI in accordance with Section 17.1(e).",
+        "Upon any termination or expiration of this Agreement, EKR shall promptly transfer the Domain Names back to PPI.",
+        "(d) EKR shall assign to PPI free of charge any domain name registrations it has registered pursuant to Section 8.5;",
+        "On the Effective Date, PPI has transferred the Domain Names to EKR for use in connection with the exercise of  the Distribution Rights.",
+        "Promptly after the Agreement  Date, PPI shall provide EKR with copies of all agreements relating to the Required Studies and shall assign such agreements to EKR if and  to the extent (i) such agreements are assignable in accordance with their terms and (ii) requested by EKR.",
+        "Effective as of the Agreement Date, PPI hereby sells, transfers, conveys and assigns to EKR all right, title  and interest in and to [**] (the \"Transferred NDA\").",
+        "Upon termination of this Agreement for any reason except as set forth in Section 17.4 below (and, if applicable, in respect of that country in  respect of which termination occurs):"
+      ],
+      "Liability Cap": [
+        "however that such limitation shall not apply to the extent that EKR or any EKR Indemnified Party is required to pay in excess of such  amount to a third party in respect of a final judgment or order obtained by the third party or as a result of PPI's breach of Section 7.2.12 of  the Supply Agreement.",
+        "Any and all liability of PPI to EKR howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance, in contract tort or otherwise, shall be limited (except for death or  personal injury caused by the negligence of PPI or its employees while acting in the course of their employment) to [**] US Dollars ($[**]);  provided",
+        "Notwithstanding anything contained in this Agreement or the Transition Services and Inventory Agreement or the  Supply Agreement in no circumstance shall either Party be liable to the other in contract, tort (including negligence or breach of statutory  duty) or otherwise howsoever, and whatever the cause thereof, for any special, indirect or consequential loss or damage of any nature  whatsoever except in the cases of fraud or intentional misconduct or in the case of PPI as a result of PPI's breach of Section 7.2.12 of the  Supply Agreement.",
+        "Any and all liability of EKR to PPI howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance in contract tort or otherwise shall be limited (except for death or  personal injury caused by the negligence of EKR or its employees while acting in the course of their employment, and except in relation to  any specified payment, lump sum, milestone or royalty payment unpaid) to [**] US Dollars ($[**]); provided however that such limitation  shall not apply to the extent that PPI or any PPI Indemnified Party is required to pay in excess of such amount to a third party in respect of a  final judgment or order obtained by the third party."
+      ]
+    }
+  },
+  {
+    "contract_id": "DOMINIADVISORTRUST_02_18_2005-EX-99.(H)(2)-SPONSORSHIP AGREEMENT",
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "classified_category": "Governing Law",
+        "text": "This Agreement shall be construed and enforced and interpreted in accordance with and governed by the laws of the Commonwealth of Massachusetts without reference to principles of conflicts of law.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "The Sponsor shall not be liable for any error of judgment or mistake of law or for any act or omission in the oversight, administration or management of the Trust or the performance of its duties hereunder, except for willful misfeasance, bad faith or gross negligence in the performance of its duties, or by reason of the reckless disregard of its obligations and duties hereunder.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      }
+    ],
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement shall be construed and enforced and interpreted in accordance with and governed by the laws of the Commonwealth of Massachusetts without reference to principles of conflicts of law."
+      ],
+      "Termination for Convenience": [
+        "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party."
+      ],
+      "Liability Cap": [
+        "Limitation of Liability of the Sponsor."
+      ]
+    }
+  },
+  {
+    "contract_id": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement",
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "classified_category": "Governing Law",
+        "text": "Any disputes relating to, arising out of or resulting from this Agreement, including to its execution, performance, or enforcement, shall be governed by, and construed in accordance with, the Laws of the State of Delaware, regardless of the Laws that might otherwise govern under applicable principles of conflicts of Laws thereof.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "This Agreement may be terminated by Nuance at any time, in its sole discretion, prior to the Distribution; provided, however, that this Agreement shall automatically terminate upon the termination of the Separation Agreement in accordance with its terms.",
+        "confidence": "high",
+        "risk_level": "high",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "Without limiting the terms set forth in Section 6.09 of the Separation Agreement, none of Nuance, SpinCo or any other member of either Group shall in any event have any Liability to the other or to any other member of the other's Group under this Agreement for any indirect, special, punitive or consequential damages, whether or not caused by or resulting from negligence or breach of obligations hereunder and whether or not informed of the possibility of the existence of such damages.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "In order to carry out the intent of the Parties with respect to the recordation of the transfers of any registrations or applications of Nuance IP or SpinCo IP, as applicable, to the extent the ownership thereof has transferred from a member of the Nuance Group to a member of the SpinCo Group, or vice versa, pursuant to the Separation Agreement or any other Ancillary Agreement, the Parties shall execute intellectual property assignments in a form substantially similar to that attached as Exhibit A1 (the \"Patent Assignment Agreement\"), Exhibit A2 (the \"Trademark Assignment Agreement\"), Exhibit A3 (the \"Domain Name Assignment Agreement\") and Exhibit A4 (the \"Invention Disclosure Assignment Agreement\") as well as such additional case specific assignments as deemed appropriate or necessary under applicable Laws (collectively, the \"Intellectual Property Assignment Agreements\") for recordation with the appropriate Governmental Authority.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "The Party receiving the license hereunder acknowledges and agrees that the Party (or the applicable member of its Group) granting the license is the sole and exclusive owner of the Intellectual Property Rights so licensed.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "Any assignment, other transfer or license by either Party or any member of its Group of any Intellectual Property Rights licensed to the other Party or any member of its Group pursuant to ARTICLE III or ARTICLE IV, respectively, shall be subject to the applicable licenses, covenants and restrictions set forth herein.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      }
+    ],
+    "gold_clauses": {
+      "Governing Law": [
+        "Any disputes relating to, arising out of or resulting from this Agreement, including to its execution, performance, or enforcement, shall be governed by, and construed in accordance with, the Laws of the State of Delaware, regardless of the Laws that might otherwise govern under applicable principles of conflicts of Laws thereof."
+      ],
+      "Termination for Convenience": [
+        "This Agreement may be terminated by Nuance at any time, in its sole discretion, prior to the Distribution; provided, however, that this Agreement shall automatically terminate upon the termination of the Separation Agreement in accordance with its terms."
+      ],
+      "IP Ownership Assignment": [
+        "In order to carry out the intent of the Parties with respect to the recordation of the transfers of any registrations or applications of Nuance IP or SpinCo IP, as applicable, to the extent the ownership thereof has transferred from a member of the Nuance Group to a member of the SpinCo Group, or vice versa, pursuant to the Separation Agreement or any other Ancillary Agreement, the Parties shall execute intellectual property assignments in a form substantially similar to that attached as Exhibit A1 (the \"Patent Assignment Agreement\"), Exhibit A2 (the \"Trademark Assignment Agreement\"), Exhibit A3 (the \"Domain Name Assignment Agreement\") and Exhibit A4 (the \"Invention Disclosure Assignment Agreement\") as well as such additional case specific assignments as deemed appropriate or necessary under applicable Laws (collectively, the \"Intellectual Property Assignment Agreements\") for recordation with the appropriate Governmental Authority."
+      ],
+      "Liability Cap": [
+        "Without limiting the terms set forth in Section 6.09 of the Separation Agreement, none of Nuance, SpinCo or any other member of either Group shall in any event have any Liability to the other or to any other member of the other's Group under this Agreement for any indirect, special, punitive or consequential damages, whether or not caused by or resulting from negligence or breach of obligations hereunder and whether or not informed of the possibility of the existence of such damages."
+      ]
+    }
+  },
+  {
+    "contract_id": "INTRICONCORP_03_10_2009-EX-10.22-Strategic Alliance Agreement",
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "classified_category": "Governing Law",
+        "text": "This Agreement is governed by the laws of Victoria, Australia and the parties submit to the jurisdiction of the courts of Victoria, Australia. The 1980 United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "Subject to the provisions of 11.1, IntriCon may terminate this Agreement upon three (3) months written notice to Dynamic Hearing, such notice stating that IntriCon will cease making payments, either minimum or second component payments or both, and such termination shall not be considered a breach of this Agreement.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "Subject to the provisions of 11.1, Dynamic Hearing may terminate this Agreement upon three (3) months written notice to IntriCon of such termination.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "Dynamic Hearing's aggregate liability to IntriCon for direct loss and damages and all other liability not described herein arising in connection with this Agreement whether in negligence, tort, equity, contract or otherwise, is limited to payment of damages recoverable at law or equity up to a maximum of (and, for the sake of clarity must not exceed) $5m",
+        "confidence": "high",
+        "risk_level": "high",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "Dynamic Hearing is not liable in any way to IntriCon for any indirect, consequential, third party, special or incidental harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect commercial or economic loss of any kind whatsoever incurred by IntriCon whether in negligence, tort, equity, contract or otherwise, arising in connection with this Agreement",
+        "confidence": "high",
+        "risk_level": "high",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "IntriCon is not liable in any way to Dynamic Hearing for any indirect, consequential, third party, special or incidental harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect commercial or economic loss of any kind whatsoever incurred by Dynamic Hearing whether in negligence, tort, equity, contract or otherwise, arising in connection with this Agreement",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "IntriCon accepts that Dynamic Hearing owns all rights in relation to the Licensed Subject Matter except for those rights being specifically granted hereunder, and that Dynamic Hearing is under no obligation to provide the source code of any software.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "Dynamic Hearing will be solely responsible at its cost and at its discretion for applying for, obtaining, maintaining, defending and enforcing all aspects of all rights in respect of the Licensed Subject Matter",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      }
+    ],
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement is governed by the laws of Victoria, Australia and the parties submit to the jurisdiction of the courts of Victoria,  Australia"
+      ],
+      "Termination for Convenience": [
+        "Subject to the provisions of 11.1, Dynamic Hearing may terminate this Agreement upon three (3) months written notice  to IntriCon of such termination."
+      ],
+      "Liability Cap": [
+        "IntriCon is not liable in any way to Dynamic Hearing for any indirect, consequential, third party, special or incidental  harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect  commercial or economic loss of any kind whatsoever incurred by Dynamic Hearing whether in negligence, tort, equity,  contract or otherwise, arising in connection with this Agreement;",
+        "(i)    if the breach relates to goods:\n\n          (A)    the replacement of goods or the supply of equivalent goods; or\n\n          (B)    the repair of such goods; and\n\n          (ii)    if the breach relates to services: the supplying of the services again.",
+        "Dynamic Hearing is not liable in any way to IntriCon for any indirect, consequential, third party, special or incidental  harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect  commercial or economic loss of any kind whatsoever incurred by IntriCon whether in negligence, tort, equity, contract  or otherwise, arising in connection with this Agreement;",
+        "Dynamic Hearing's aggregate liability to IntriCon for direct loss and damages and all other liability not described herein  arising in connection with this Agreement whether in negligence, tort, equity, contract or otherwise, is limited to  payment of damages recoverable at law or equity up to a maximum of (and, for the sake of clarity must not exceed) $5m;",
+        "if any legislation implies in this Agreement any term or warranty which cannot be excluded or modified, the liability of  Dynamic Hearing for a breach of any such term or warranty is limited, at the option of Dynamic Hearing, to any one or  more of the following:"
+      ]
+    }
+  },
+  {
+    "contract_id": "ZEBRATECHNOLOGIESCORP_04_16_2014-EX-10.1-INTELLECTUAL PROPERTY AGREEMENT",
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "classified_category": "Governing Law",
+        "text": "The Laws of the State of Delaware (without reference to its principles of conflicts of law) shall govern the construction, interpretation and other matters arising out of or in connection with this IP Agreement and its schedules (whether arising in contract, tort, equity or otherwise).",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "Seller may terminate the license granted to the Purchaser Licensees pursuant to Section 2.2(c) (and no other provision of this IP Agreement), following the Initial Closing Date and upon prior written notice to Purchaser, in the event Purchaser materially breaches Section 2.2(c) and fails to cure such material breach within one hundred twenty (120) days after Purchaser's receipt of written notice from Seller (which such notice shall contain a reasonable description of such material breach and a statement of Seller's intent to terminate the license granted to the Purchaser Licensees pursuant to Section 2.2(c) if such material breach is not cured within such one hundred twenty (120) day period).",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "The sole and exclusive remedy for any breach of this IP Agreement, including the representations and warranties and covenants herein, shall be as set forth in Article 8 of the Acquisition Agreement.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "Effective as of the applicable Closing Date, the Seller hereby sells, assigns, transfers, conveys and delivers all of its right, title, and interest in and to the Assigned IP (together with the goodwill of the business symbolized by any Trademarks that constitute Assigned IP) and all Ancillary IP Rights with respect thereto, and shall cause the other Seller Parties to do the same, to the Purchaser Assignees and, effective as of the applicable Closing Date, the Purchaser Assignees hereby purchase, acquire and accept the same from the Seller Parties.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "If and to the extent that, as a matter of Law in any jurisdiction, ownership, title, or any rights or interest in or to any of the Assigned IP cannot be assigned as provided in Section 2.1(b)(i), (A) the Seller irrevocably agrees to (and shall cause the other Seller Parties to) assign and transfer, and the Seller hereby assigns and transfers (and shall cause the other Seller Parties to assign and transfer) to the Purchaser Assignees all rights (including all economic and commercialization rights) that can be assigned pursuant to Section 2.1(b)(i) to the fullest extent permissible, and (B) the Seller hereby grants to the Purchaser Assignees, and hereby agrees to cause the other Seller Parties to grant to the Purchaser Assignees, an unlimited, exclusive, irrevocable, assignable, transferable, sublicenseable, worldwide, perpetual, royalty-free, fully-paid up license to use, exploit, and commercialize in any manner now known or in the future discovered and for whatever purpose, any and all rights to Assigned IP that cannot be assigned as contemplated by Section 2.1(b)(i).",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      }
+    ],
+    "gold_clauses": {
+      "Governing Law": [
+        "The Laws of the State of Delaware (without reference to its principles of conflicts of law) shall govern the construction, interpretation and other matters arising out of or in connection with this IP Agreement and its schedules (whether arising in contract, tort, equity or otherwise)."
+      ],
+      "IP Ownership Assignment": [
+        "If the arbitrator determines that any Outstanding Patent should be or should have been, as applicable, an Assigned Patent, Seller shall (and shall cause the other Seller Parties to) assign such Patent to the Purchaser Assignees in accordance with Section 2.1(b)(iii)(E).",
+        "Effective as of the applicable Closing Date, the Seller hereby sells, assigns, transfers, conveys and delivers all of its right, title, and interest in and to the Assigned IP (together with the goodwill of the business symbolized by any Trademarks that constitute Assigned IP) and all Ancillary IP Rights with respect thereto, and shall cause the other Seller Parties to do the same, to the Purchaser Assignees and, effective as of the applicable Closing Date, the Purchaser Assignees hereby purchase, acquire and accept the same from the Seller Parties.",
+        "If and to the extent that, as a matter of Law in any jurisdiction, ownership, title, or any rights or interest in or to any of the Assigned IP cannot be assigned as provided in Section 2.1(b)(i), (A) the Seller irrevocably agrees to (and shall cause the other Seller Parties to) assign and transfer, and the Seller hereby assigns and transfers (and shall cause the other Seller Parties to assign and transfer) to the Purchaser Assignees all rights (including all economic and commercialization rights) that can be assigned pursuant to Section 2.1(b)(i) to the fullest extent permissible, and (B) the Seller hereby grants to the Purchaser Assignees, and hereby agrees to cause the other Seller Parties to grant to the Purchaser Assignees, an unlimited, exclusive, irrevocable, assignable, transferable, sublicenseable, worldwide, perpetual, royalty-free, fully-paid up license to use, exploit, and commercialize in any manner now known or in the future discovered and for whatever purpose, any and all rights to Assigned IP that cannot be assigned as contemplated by Section 2.1(b)(i)."
+      ],
+      "Liability Cap": [
+        "The sole and exclusive remedy for any breach of this IP Agreement, including the representations and warranties and covenants herein, shall be as set forth in Article 8 of the Acquisition Agreement."
+      ]
+    }
+  },
+  {
+    "contract_id": "PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise Agreement1",
+    "clauses": [],
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement and the relationship between the parties is governed by and will be construed exclusively in accordance with the laws of the State of Florida (without regard to, and without applying, Florida conflict-of-law rules)."
+      ],
+      "Termination for Convenience": [
+        "We may terminate your right to provide products and services to a Major Account customer at any time by giving you at least 30 days' prior written notice, and you may terminate your right to provide products and services to a Major Account at any time by giving us at least 30 days' prior written notice."
+      ],
+      "IP Ownership Assignment": [
+        "If you wish to test market an item that we have not approved, then, so long as we have given you our prior written approval, you may do so for so long, and on such terms, that we mutually agree upon (a \"Test\"), and the item so tested, and all associated formulae, plans, and materials, will become our property.",
+        "You agree that all data that you collect from customers and potential customers in connection with the Franchised Business (\"Customer Data\") is deemed to be owned exclusively by us, and you also agree to provide the Customer Data to us at any time that we request as you to do so.",
+        "The Customer List is, and remains, our exclusive property, you hereby assign to us all rights you now have or hereafter may acquire in the Customer List.",
+        "All data pertaining to, derived from, or displayed at the Franchised Business (including without limitation data pertaining to or otherwise about Franchised Business customers) is and shall be our exclusive property, and we hereby grant you a royalty-free non-exclusive license to use that data during the Term of this Agreement."
+      ],
+      "Liability Cap": [
+        "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+        "Any and all claims and actions arising out of or relating to this Agreement, the relationship between you and us, or your operation of the Restaurant, brought by any party hereto against the other, must be commenced within one (1) year from the occurrence of the facts giving rise to such claim or action, or, it is expressly acknowledged and agreed by all parties, such claim or action will be irrevocably barred."
+      ]
+    }
+  },
+  {
+    "contract_id": "CORIOINC_07_20_2000-EX-10.5-LICENSE AND HOSTING AGREEMENT",
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "classified_category": "Governing Law",
+        "text": "This Agreement shall be governed by the laws of the State of California, USA, excluding conflict of laws provisions and excluding the 1980 United Nations Convention on Contracts for the International Sale of Goods.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Termination for Convenience",
+        "classified_category": "Termination for Convenience",
+        "text": "The term of this Agreement shall commence on the Effective Date and shall continue in full force and effect for an initial period of five (5) years. Thereafter, this Agreement shall automatically renew for subsequent one (1) year periods unless either party provides the other party with written notification at least thirty (30) days prior to the expiration of the initial five (5) year term or any one (1) year renewal thereof of its intention to terminate this Agreement.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "EXCEPT FOR LIABILITY ARISING UNDER SECTION 8 OF THIS AGREEMENT, IN NO EVENT SHALL EITHER PARTY'S LIABILITY ARISING OUT OF THIS AGREEMENT OR THE USE OR PERFORMANCE OF THE SOFTWARE EXCEED THE TOTAL AMOUNT ACTUALLY PAID BY CORIO HEREUNDER FOR THE TRANSACTION WHICH THE LIABILITY RELATES TO DURING THE TWELVE (12) MONTHS IMMEDIATELY PRIOR TO THE FILING OF THE CAUSE OF ACTION TO WHICH THE LIABILITY RELATES.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "Liability Cap",
+        "classified_category": "Liability Cap",
+        "text": "EXCEPT FOR LIABILITY ARISING UNDER SECTION 8 OF THIS AGREEMENT, IN NO EVENT SHALL EITHER PARTY HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR FOR ANY INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY AND WHETHER OR NOT SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "Commerce One hereby retains all of its right, title, and interest in and to the Software, including all copyrights, patents, trade secret rights, trademarks and other intellectual property rights therein. All rights not expressly granted hereunder are reserved to Commerce One. The Software and all copies thereof are licensed, not sold, to Corio.",
+        "confidence": "high",
+        "risk_level": "low",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "classified_category": "IP Ownership Assignment",
+        "text": "Subject to Commerce One's pre-existing ownership of any materials or technology provided to Corio, the results of all such development efforts set forth in this Section 13, including all intellectual property rights in any software interface coding or programs created solely by Corio during the term of this Agreement to enable the Software to operated within the Corio Servers' hosted environment (\"DEVELOPMENTS\"), shall be owned by Corio, unless such Developments are supported on an ongoing basis by Commerce One in which case Commerce One will retain all ownership rights, including intellectual property rights in the Developments. To the extent that Commerce One would otherwise have a claim of ownership in such Developments, Commerce One hereby assigns all rights in and to such Developments to Corio.",
+        "confidence": "high",
+        "risk_level": "medium",
+        "risk_factors": [],
+        "risk_reasoning": ""
+      }
+    ],
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement shall be governed by         the laws of the State of California, USA, excluding conflict of laws         provisions and excluding the 1980 United Nations Convention on Contracts         for the International Sale of Goods."
+      ],
+      "IP Ownership Assignment": [
+        "Subject to Commerce One's pre-existing ownership of any         materials or technology provided to Corio, the results of all such         development efforts set forth in this Section 13, including all         intellectual property rights in any software interface coding or         programs created solely by Corio during the term of this Agreement to         enable the Software to operated within the Corio Servers' hosted         environment (\"DEVELOPMENTS\"), shall be owned by Corio, unless such         Developments are supported on an ongoing basis by Commerce One in which         case Commerce One will retain all ownership rights, including\n\n\n\n\n\n     intellectual property rights in the Developments.",
+        "To the extent that         Commerce One would otherwise have a claim of ownership in such         Developments, Commerce One hereby assigns all rights in and to such         Developments to Corio."
+      ],
+      "Liability Cap": [
+        "The foregoing are         Corio's sole and exclusive remedies for breach of product warranty.",
+        "EXCEPT FOR LIABILITY         ARISING UNDER SECTION 8 OF THIS AGREEMENT, IN NO EVENT SHALL EITHER         PARTY HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR         COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR FOR ANY         INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES HOWEVER CAUSED AND UNDER ANY         THEORY OF LIABILITY AND WHETHER OR NOT SUCH PARTY HAS BEEN ADVISED OF         THE POSSIBILITY OF SUCH DAMAGE.",
+        "EXCEPT FOR LIABILITY ARISING UNDER SECTION 8 OF THIS AGREEMENT, IN NO         EVENT SHALL EITHER PARTY'S LIABILITY ARISING OUT OF THIS AGREEMENT OR         THE USE OR PERFORMANCE OF THE SOFTWARE EXCEED THE TOTAL AMOUNT ACTUALLY         PAID BY CORIO HEREUNDER FOR THE TRANSACTION WHICH THE LIABILITY RELATES         TO DURING THE TWELVE (12) MONTHS IMMEDIATELY PRIOR TO THE FILING OF THE         CAUSE OF ACTION TO WHICH THE LIABILITY RELATES. EXCEPT FOR LIABILITY         ARISING UNDER SECTION 8 OF THIS AGREEMENT, IN NO EVENT SHALL EITHER         PARTY HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR         COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR FOR ANY         INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES HOWEVER CAUSED AND UNDER ANY         THEORY OF LIABILITY AND WHETHER OR NOT SUCH PARTY HAS BEEN ADVISED OF         THE POSSIBILITY OF SUCH DAMAGE."
+      ]
+    }
+  }
+]

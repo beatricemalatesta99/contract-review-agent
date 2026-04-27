@@ -1,0 +1,1524 @@
+[
+  {
+    "contract_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 64,
+    "clauses": [
+      {
+        "category": "Liability Cap",
+        "text": "in no event shall the [ * ] paid or payable to Distributor by Google pursuant to Clause 4.1  (Payments) exceed the [ * ].",
+        "confidence": "high",
+        "chunk_id": 19,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause establishes a contractual maximum limit on the amount that can be paid or is payable to the Distributor, which is a form of capping financial exposure or liability.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Liability cap appears to favor distributor not buyer",
+          "Clause limits distributor's liability to amounts paid by Google (buyer)",
+          "Reversed party positions - buyer's liability may be capped rather than supplier's",
+          "Critical redactions obscure actual cap amount and liability scope",
+          "Unusual structure for buyer-side protection"
+        ],
+        "risk_reasoning": "This liability cap appears to limit the Distributor's liability to Google (the buyer), which is backwards from the buyer's perspective - the buyer typically wants the supplier's liability capped, not to have their own liability to the supplier limited, and the redactions prevent assessment of whether the cap amount is reasonable.",
+        "validation_flags": [
+          "keywords_missing"
+        ]
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "[ * ] may terminate this Agreement immediately upon written notice if there is a Change of Control of [ * ].",
+        "confidence": "medium",
+        "chunk_id": 26,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause allows termination upon a specific triggering event (Change of Control) rather than at will without cause, which distinguishes it from Termination for Convenience and does not fit the other defined categories.",
+        "risk_level": "high",
+        "risk_factors": [
+          "ambiguous party identification",
+          "unilateral termination right",
+          "no reciprocal protection",
+          "undefined Change of Control",
+          "immediate termination without cure period"
+        ],
+        "risk_reasoning": "The redacted party identities create critical ambiguity about whether the buyer or supplier holds the termination right, and if the buyer is subject to this clause without reciprocal protection, it faces unilateral contract termination risk upon any change of control event without definition, notice period, or ability to cure.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "If a period of Special Suspension extends for more than [ * ] may then terminate this Agreement (in part) in respect of the affected country or territory only, such termination to take effect upon written notice[ * ].",
+        "confidence": "medium",
+        "chunk_id": 27,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "medium",
+        "classifier_reasoning": "The clause grants a party the right to terminate the agreement (in part) upon written notice after a specified suspension period, which represents termination based on circumstances rather than breach or cause.",
+        "risk_level": "high",
+        "risk_factors": [
+          "missing critical threshold duration",
+          "missing notice period",
+          "incomplete termination trigger definition",
+          "undefined 'Special Suspension' term",
+          "ambiguous scope of partial termination"
+        ],
+        "risk_reasoning": "The clause contains multiple placeholder gaps (marked with [ * ]) that leave undefined the suspension duration threshold triggering termination rights, the required notice period, and potentially which party may terminate, creating significant ambiguity about when and how termination rights arise and making the provision commercially unworkable in its current form.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "Clauses 5.6 (Effect of Termination), 6 (Confidential Information), 7 (Proprietary Rights), 9 (Limitation of Liability), 10 (Indemnification) and 11 (General) shall survive the termination or expiration of this Agreement.",
+        "confidence": "low",
+        "chunk_id": 28,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause specifies which provisions survive termination but does not itself define governing law, termination rights, liability caps, indemnification obligations, or IP ownershipâ€”it merely references other clauses that may contain those provisions.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "survival of uncapped limitation of liability clause",
+          "survival of indemnification obligations",
+          "broad survival of general provisions without time limits",
+          "potential indefinite post-termination exposure"
+        ],
+        "risk_reasoning": "While survival clauses are standard, this one perpetuates potentially unfavorable provisions (Limitation of Liability and Indemnification) indefinitely without time limits or clarification of scope, which could create ongoing exposure for the buyer after contract termination, particularly if those clauses contain asymmetric obligations or uncapped liabilities that should reasonably sunset.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "Distributor acknowledges that Google and/or its licensors own all right, title and interest, including all Intellectual Property Rights in and to the Products and the Google Trademarks and all modifications to them. Distributor has, and shall acquire, no rights in the foregoing except those expressly granted by this Agreement.",
+        "confidence": "high",
+        "chunk_id": 31,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly specifies that Google and its licensors own all intellectual property rights in the Products and Google Trademarks, with the Distributor acquiring no rights except those expressly granted, which directly addresses IP ownership allocation between the parties.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "broad scope of 'all modifications'",
+          "potential capture of distributor improvements",
+          "no carve-out for distributor-created derivative works or feedback"
+        ],
+        "risk_reasoning": "While the core IP ownership acknowledgment is standard for a distribution agreement, the clause's inclusion of 'all modifications' without carve-outs for distributor-developed enhancements, customizations, or feedback could inadvertently assign valuable distributor-created IP to Google, which is asymmetric and worth negotiating limitations.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "Google acknowledges that Distributor and/or its licensors own all right, title and interest, including all Intellectual Property Rights, in and to the Distributor Apps and all [ * ] to [ * ].",
+        "confidence": "high",
+        "chunk_id": 32,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly acknowledges that Distributor and/or its licensors own all intellectual property rights in the Distributor Apps, which directly addresses ownership of intellectual property under the contract.",
+        "risk_level": "high",
+        "risk_factors": [
+          "redacted critical scope terms",
+          "unclear what IP rights buyer is acknowledging",
+          "potential unintended assignment or waiver",
+          "missing reciprocal protection for buyer's IP"
+        ],
+        "risk_reasoning": "The clause contains redacted terms ([ * ]) that obscure the full scope of what IP rights Google (the buyer) is acknowledging the Distributor owns, creating significant ambiguity that could inadvertently waive buyer's rights to derivative works, improvements, or data generated through the platform without knowing what is being acknowledged.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "Nothing in this Agreement shall exclude or limit either party's liability under Clause 10 (Indemnities), or Distributor's liability under Clause  2 (License Grants and Restrictions), Clause 3.5 (Exclusivity), Clause 3.6 (End User License Agreement) and Clause 3.7 (Accurate  Reproduction) or Clause [ * ].",
+        "confidence": "high",
+        "chunk_id": 40,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly carves out exceptions to liability limitations by stating that certain liabilities (under specified clauses including indemnities) shall not be excluded or limited, which is a characteristic feature of liability cap provisions that define the scope and boundaries of liability limitations.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Asymmetric carve-outs favor Distributor",
+          "Buyer's liability appears uncapped for indemnities",
+          "Multiple Distributor obligations excluded from cap while Buyer obligations unclear",
+          "Redacted clause reference creates uncertainty"
+        ],
+        "risk_reasoning": "The clause carves out multiple Distributor-specific obligations from the liability cap while only mentioning mutual indemnity exclusions, creating an imbalance that potentially leaves the buyer with broader uncapped exposure, and the redacted clause reference introduces material uncertainty about additional uncapped liabilities.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "Subject to Clauses 9.1 and 9.2, neither party shall be liable under this Agreement (whether in contract, tort or otherwise) for any: (a) loss of anticipated savings; (b) loss of business opportunity (which for the avoidance of doubt shall not include loss of advertising revenue); (c) loss of or corruption of data; (d) loss or damage resulting from third party claims; or (e) indirect or consequential losses; suffered or incurred by the other party (whether or not such losses were within the contemplation of the parties at the date of this Agreement).",
+        "confidence": "high",
+        "chunk_id": 41,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause limits the types of damages (loss of savings, business opportunity, data, indirect/consequential losses) that either party can recover from the other under the agreement.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Loss of data excluded from recovery",
+          "Third party claims losses excluded",
+          "Unclear scope of Clauses 9.1 and 9.2 carve-outs",
+          "Mutual exclusion may disadvantage buyer disproportionately"
+        ],
+        "risk_reasoning": "While mutual exclusions of consequential losses are standard, the specific exclusion of data loss/corruption and third party claims is concerning for a buyer who typically relies on the supplier's services and may suffer direct harm from data issues, and the clause's protection depends entirely on unspecified carve-outs in Clauses 9.1 and 9.2 which require review.",
+        "validation_flags": [
+          "keywords_missing"
+        ]
+      },
+      {
+        "category": "Liability Cap",
+        "text": "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+        "confidence": "high",
+        "chunk_id": 42,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits each party's total liability under the agreement to a specified monetary amount or percentage of payments, which is the defining characteristic of a liability cap provision.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Blanked-out cap amounts prevent assessment of adequacy",
+          "Cap based on payments to Distributor may be minimal if buyer is the paying party",
+          "Unknown carve-outs in Clauses 9.1 and 9.2 could exclude critical liabilities",
+          "Mutual cap structure may disadvantage buyer if contract value is low relative to buyer's risk exposure"
+        ],
+        "risk_reasoning": "While mutual liability caps are standard, the redacted amounts prevent assessment of whether the cap is adequate for the buyer's risk exposure, and the cap being tied to payments to the Distributor (rather than total contract value or payments by buyer) suggests the buyer may be paying the supplier while having liability capped at the distributor's much smaller revenue stream, creating potential asymmetry.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "if any suspension under this Clause continues for more than 30 days, Distributor may, at any time until use of the distribution or use of the Products or the Google Trademarks is reinstated, terminate this Agreement immediately upon written notice.",
+        "confidence": "medium",
+        "chunk_id": 45,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "medium",
+        "classifier_reasoning": "This clause grants the Distributor the right to terminate the agreement upon written notice after a 30-day suspension period, which represents a conditional right to terminate without needing to prove breach or fault by the other party.",
+        "risk_level": "high",
+        "risk_factors": [
+          "unilateral termination right favoring counterparty",
+          "immediate termination without cure period",
+          "ambiguous suspension trigger ('any suspension under this Clause')",
+          "no reciprocal termination right for buyer",
+          "potential for strategic abuse of suspension mechanism"
+        ],
+        "risk_reasoning": "This clause grants the Distributor (counterparty) an immediate unilateral termination right after only 30 days of suspension without providing the buyer/client any reciprocal right, creating significant asymmetry and exposure to abrupt contract termination that could disrupt business operations and leave the buyer without remedies.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Agreement is governed by English law and the parties submit to the exclusive jurisdiction of the English courts in relation to any dispute (contractual or non-contractual) concerning this Agreement save that either party may apply to any court for an injunction or other relief to protect its Intellectual Property Rights.",
+        "confidence": "high",
+        "chunk_id": 58,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly states that the agreement is governed by English law and specifies the jurisdiction of English courts for dispute resolution, which is the defining characteristic of a governing law provision.",
+        "risk_level": "low",
+        "risk_factors": [
+          "Carve-out for IP injunctions allows either party to seek relief in any jurisdiction",
+          "Exclusive jurisdiction may limit forum choice for buyer"
+        ],
+        "risk_reasoning": "This is standard market wording for English law governed contracts, with the IP carve-out being a common and balanced provision that protects both parties' ability to seek urgent relief for intellectual property matters in jurisdictions where infringement occurs.",
+        "validation_flags": []
+      },
+      {
+        "category": "Indemnification",
+        "text": "Special indemnity and other suspension and/or termination provisions may apply. These are addressed in your agreement with Google.",
+        "confidence": "low",
+        "chunk_id": 62,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause merely references that indemnity and termination provisions exist elsewhere in the agreement without actually containing substantive indemnity or termination terms itself.",
+        "risk_level": "high",
+        "risk_factors": [
+          "vague cross-reference to undefined terms",
+          "unknown indemnity scope",
+          "unspecified termination triggers",
+          "lack of transparency on material obligations",
+          "potential for unilateral suspension without clear grounds"
+        ],
+        "risk_reasoning": "This clause creates significant uncertainty by referencing unspecified 'special' indemnity and termination provisions in another agreement without defining their scope, triggers, or limitations, potentially exposing the buyer to unknown liabilities and service disruptions without clear contractual protections.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 16,
+      "dropped": 1,
+      "flagged": 2,
+      "kept": 15
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement is governed by English law and the parties submit to the exclusive jurisdiction of the English courts in  relation to any dispute (contractual or non-contractual) concerning this Agreement save that either party may apply to any court for an  injunction or other relief to protect its Intellectual Property Rights."
+      ],
+      "Liability Cap": [
+        "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or  otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+        "Notwithstanding anything to the contrary, in no event shall the [ * ] paid or payable to Distributor by Google pursuant to Clause 4.1  (Payments) exceed the [ * ].",
+        "Subject to Clauses 9.1 and 9.2, neither party shall be liable under this Agreement (whether in contract, tort or otherwise) for any:\n\n  (a) loss of anticipated savings;\n\n  (b) loss of business opportunity (which for the avoidance of doubt shall not include loss of advertising revenue);\n\n  (c) loss of or corruption of data;\n\n  (d) loss or damage resulting from third party claims; or\n\n  (e) indirect or consequential losses;\n     suffered or incurred by the other party (whether or not such losses were within the contemplation of the parties at the date of this  Agreement).",
+        "The foregoing Clauses 10.1 to 10.5 states the parties' entire liability and exclusive remedy with respect to infringement of a third party's  Intellectual Property Rights."
+      ]
+    }
+  },
+  {
+    "contract_id": "CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 1,
+    "clauses": [
+      {
+        "category": "Termination for Convenience",
+        "text": "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice.",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly grants either party the right to terminate the agreement without cause upon thirty days' written notice, which is the defining characteristic of termination for convenience.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "mutual termination right exposes buyer to supplier exit risk",
+          "no protection for buyer's sunk costs or transition expenses",
+          "30-day notice period may be insufficient for complex services or dependencies"
+        ],
+        "risk_reasoning": "While the mutual termination right appears balanced, it exposes the buyer to significant operational and financial risk if the supplier terminates during critical project phases or before the buyer has realized value from implementation costs, with only 30 days to find alternatives or transition services.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees.",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits i-on's liability for damages to a specific monetary amount (one month's fees plus prepaid fees), which is the defining characteristic of a liability cap provision.",
+        "risk_level": "high",
+        "risk_factors": [
+          "extremely low liability cap (one month's fees)",
+          "no carve-outs for critical exclusions (IP infringement, data breach, confidentiality, fraud, gross negligence)",
+          "cap applies to all causes and forms of action without distinction",
+          "disproportionate risk allocation where damages could vastly exceed one month's fees"
+        ],
+        "risk_reasoning": "This clause is strongly unfavorable to the buyer because it caps all liability at merely one month's fees without standard carve-outs for fundamental breaches like IP infringement, data breaches, or willful misconduct, leaving the customer severely underprotected against potentially catastrophic losses that could far exceed this minimal cap.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida.",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly states that the validity, construction, interpretation, and legal effect of the agreement shall be governed by the laws of the State of Florida.",
+        "risk_level": "low",
+        "risk_factors": [
+          "Florida law selection",
+          "internal performance requirement language"
+        ],
+        "risk_reasoning": "This is a standard governing law clause selecting Florida law with typical language limiting it to contracts performed entirely within the state, which is market-standard and presents minimal risk unless the buyer has a strong preference for a different jurisdiction or the contract involves multi-state performance that could create ambiguity.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 4,
+      "dropped": 0,
+      "flagged": 0,
+      "kept": 4
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement was entered into in the State of Florida, and its validity, construction, interpretation, and legal effect shall be governed by the laws and judicial decisions of the State of Florida applicable to contracts entered into and performed entirely within the State of Florida."
+      ],
+      "Termination for Convenience": [
+        "Either party may terminate this Agreement without cause at any time effective upon thirty (30) days' written notice."
+      ],
+      "Liability Cap": [
+        "i-on will not be liable under any circumstances for any lost profits or other consequential damages, even if i-on has been advised as to the possibility of such damages. i-on's liability for damages to the Customer for any cause whatsoever, regardless of the form of action, and whether in contract or in tort, including negligence, shall be limited to one (1) month's fees and the remaining portion of any prepaid fees."
+      ]
+    }
+  },
+  {
+    "contract_id": "KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 1,
+    "clauses": [],
+    "validation": {
+      "total_candidates": 0,
+      "dropped": 0,
+      "flagged": 0,
+      "kept": 0
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement shall be governed by the laws of the State of Texas, without reference to its conflicts of law principles."
+      ],
+      "Termination for Convenience": [
+        "Either Consultant or Company may terminate this Agreement upon prior written notice thereof to the other party."
+      ],
+      "IP Ownership Assignment": [
+        "Consultant hereby irrevocably assigns to Company all right, title and interest in and to any information (including, without limitation, business plans and/or business information), technology, know-how, materials, notes, records, designs, ideas, inventions, improvements, devices, developments, discoveries, compositions, trade secrets, processes, methods and/or techniques, whether or not patentable or copyrightable, that are conceived, reduced to practice or made by Consultant alone or jointly with others in the course of performing the Services or through the use of Confidential Information (collectively, 111nventions\").",
+        "to execute and file any such applications and to do all other lawfully permitted acts to further the prosecution and issuance of such intellectual property rights thereon with the same legal force and effect as if executed by Consultant.",
+        "Consultant agrees to sign, execute and acknowledge or cause to be signed, executed and acknowledged without cost, but at the expense of Company, any and all documents and to perform such acts as my be necessary, useful or convenient for the purposes of perfecting the foregoing assignments and obtaining, enforcing and defending intellectual property rights in any and all countries with respect to Inventions.",
+        "Consultant agrees that if Company is unable because of Consultant's unavailability, mental or physical incapacity, or for any other reason, to secure Consultant's signature to apply for or to pursue any application or registration for any intellectual property rights covering any Invention, then Consultant hereby irrevocably designates and appoints Company and its duly authorized officers and agents as Consultant's agent and attorney-in-fact, to act for and in Consultant's behalf"
+      ]
+    }
+  },
+  {
+    "contract_id": "DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 241,
+    "clauses": [
+      {
+        "category": "Governing Law",
+        "text": "13.5 Governing Law. 45",
+        "confidence": "low",
+        "chunk_id": 73,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause is explicitly titled 'Governing Law' which directly matches the category definition for provisions specifying the law governing contract interpretation and enforcement.",
+        "risk_level": "high",
+        "risk_factors": [
+          "incomplete clause",
+          "missing governing law specification",
+          "unenforceable provision",
+          "ambiguous legal framework"
+        ],
+        "risk_reasoning": "The clause is incomplete and fails to specify which jurisdiction's law will govern the contract, rendering it unenforceable and creating significant uncertainty about dispute resolution and legal interpretation.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "Except with respect to the exclusive rights granted to Valeant to conduct the Valeant Activities for the Product in the Specialty in the Territory in the Field pursuant to Section 2.1 and, and if agreed upon, outside the Specialty in the Territory in the Field pursuant to Section 4.1.5, Dova retains all rights in and to the Product.",
+        "confidence": "high",
+        "chunk_id": 158,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly addresses ownership of intellectual property rights in the Product, specifying that Dova retains all rights except for the exclusive rights granted to Valeant under specific sections.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Buyer receives only limited exclusive rights while seller retains all other IP ownership",
+          "Scope of granted rights depends on cross-referenced sections not provided",
+          "Ambiguous double 'and' suggests drafting error creating uncertainty",
+          "Conditional rights outside Specialty subject to separate agreement",
+          "Buyer's rights are carved out of seller's retained ownership rather than affirmatively assigned"
+        ],
+        "risk_reasoning": "From the buyer's (Valeant's) perspective, this clause is highly unfavorable as it grants only narrow exclusive rights limited to specific activities while the seller (Dova) retains all underlying IP ownership, creating significant dependency and limiting Valeant's ability to fully exploit or protect the Product commercially without the referenced sections clarifying adequate scope.",
+        "validation_flags": [
+          "keywords_missing"
+        ]
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "For clarity, except as provided in Sections 2.1 or 2.4, Valeant shall not acquire any license or other intellectual property interest, by implication or otherwise, in any technology, Know-How or other intellectual property owned or controlled by Dova or any of its Affiliates, and Dova is not providing any such technology, Know-How or other intellectual property, or any assistance related thereto, to Valeant for any use other than for the mutual benefit of the Parties as expressly contemplated hereby.",
+        "confidence": "high",
+        "chunk_id": 158,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly clarifies that Valeant does not acquire any intellectual property rights, licenses, or interests in Dova's technology and Know-How except as expressly provided in specific sections, which directly addresses IP ownership and rights allocation between the parties.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Ambiguous cross-references to undefined sections",
+          "Unclear scope limitation ('mutual benefit')",
+          "Potential restriction on implied licenses"
+        ],
+        "risk_reasoning": "The clause references Sections 2.1 and 2.4 without context, creating uncertainty about what IP rights the buyer (Valeant) actually receives, and the vague 'mutual benefit' limitation could restrict the buyer's ability to use deliverables or IP in ways they might reasonably expect under the contract.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "As between the Parties, Dova shall own all right, title and interest in and to any Product Materials (and all content contained therein) and any Product Labeling (and all content contained therein), including applicable copyrights and trademarks (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling), and to the extent Valeant (or any of its Affiliates) obtains or otherwise has a claim to any of the foregoing, Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content) (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling) to Dova and Valeant agrees to (and shall cause its applicable Affiliate to) execute all documents and take all actions as are reasonably requested by Dova to vest title to such Product Materials (and content) and Product Labeling (and content) in Dova (or its designated Affiliate).",
+        "confidence": "high",
+        "chunk_id": 171,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly assigns ownership of Product Materials and Product Labeling (including copyrights and trademarks) from Valeant to Dova, and requires execution of documents to vest title, which directly matches the definition of IP ownership assignment provisions.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Automatic assignment of all IP rights to counterparty",
+          "Broad scope covering 'any' Product Materials without defined limitations",
+          "Buyer loses ownership of work product they may have created or funded",
+          "Obligation to execute documents and take actions at counterparty's request",
+          "No compensation or consideration specified for IP transfer",
+          "Undefined terms 'Product Materials' and 'Product Labeling' could be interpreted broadly"
+        ],
+        "risk_reasoning": "This clause requires Valeant (the buyer/client) to automatically assign all IP rights in Product Materials and Labeling to Dova without apparent compensation, which is highly unfavorable if Valeant is paying for development or contributing to creation of these materials, as they would lose all ownership rights to work they may have funded or created.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "Subject to the terms of Section 8.1.1, Dova shall have and retain sole and exclusive right, title and interest in and to all inventions, developments, discoveries, writings, trade secrets, Know-How, methods, practices, procedures, designs, improvements and other technology, whether or not patentable or copyrightable, and any patent applications, patents, or copyrights based thereon (collectively, \"Intellectual Property\") relating to the Product that are (i) owned or controlled by Dova as of the Effective Date, (ii) made, discovered, conceived, reduced to practice or generated by Dova (or its employees or representatives) during the Term, or (iii) made, discovered, conceived, reduced to practice or generated by Valeant (or its employees or representatives) in performing its activities pursuant to this Agreement to the extent primarily related to the Product or which is otherwise derived from the Confidential Information of Dova (\"Inventions\"). Valeant agrees to assign, and hereby does assign, to Dova (and shall cause its Affiliates and its and their respective employees and other representatives to assign to Dova) any and all right, title and interest that Valeant (or any such Affiliates, employees or other representatives) may have in or to any Invention.",
+        "confidence": "high",
+        "chunk_id": 197,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly assigns and transfers all intellectual property rights, title, and interest in inventions related to the Product from Valeant to Dova, which is the core definition of IP ownership assignment.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Automatic assignment of all buyer-created IP to supplier",
+          "Broad scope captures improvements beyond original product",
+          "No carve-out for buyer's pre-existing IP or general knowledge",
+          "No compensation mechanism for assigned inventions",
+          "Valeant loses rights even to inventions primarily developed with own resources",
+          "Ambiguous 'primarily related to' standard creates uncertainty",
+          "Assignment includes derivative works from confidential information exposure"
+        ],
+        "risk_reasoning": "This clause requires Valeant (buyer) to automatically assign all IP created during performanceâ€”even inventions developed primarily by Valeantâ€”to Dova (supplier) without compensation or retention of any rights, which is highly unfavorable and atypical for a buyer who would normally retain ownership of work product they create and fund.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "The ownership, and all goodwill from the use, of any Dova Trademarks and Copyrights shall at all times vest in and inure to the benefit of Dova, and Valeant shall assign, and hereby does assign, any rights it may have in the foregoing to Dova.",
+        "confidence": "high",
+        "chunk_id": 198,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly assigns ownership of trademarks and copyrights from Valeant to Dova, specifying which party owns the intellectual property rights.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "automatic present assignment of rights ('hereby does assign')",
+          "assignment of 'any rights' without carve-outs or limitations",
+          "unclear scope of what constitutes 'Dova Trademarks and Copyrights'",
+          "no compensation or consideration mentioned for assignment"
+        ],
+        "risk_reasoning": "The clause contains a present automatic assignment of potentially broad IP rights to the counterparty (Dova) without defined scope limitations, carve-outs for pre-existing rights, or specified consideration, which is asymmetric if Valeant is the buyer/client and could inadvertently transfer valuable IP assets.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "For clarity, the Parties hereby agree and acknowledge that to the extent that either Party hereto has disclosed, or in the future discloses, to the other Party any Know-How or other intellectual property of such Party or its Affiliates pursuant to this Agreement, the other Party shall not acquire any ownership rights in such Know-How or other intellectual property by virtue of this Agreement or otherwise, and as between the Parties, all ownership rights therein shall remain with the disclosing Party (or its Affiliate).",
+        "confidence": "high",
+        "chunk_id": 200,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly addresses ownership rights in intellectual property and Know-How disclosed under the agreement, clarifying that the disclosing party retains all ownership rights and the receiving party acquires none.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "No work product assignment to buyer",
+          "Ambiguous scope of 'Know-How or other intellectual property'",
+          "Lacks clarity on newly created IP during contract performance",
+          "Potential gap in ownership of deliverables"
+        ],
+        "risk_reasoning": "While the clause appropriately protects pre-existing IP, it fails to address ownership of work product or deliverables created under the agreement, which is critical for a buyer expecting to own outputs from the contracted services or development work.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "NOTWITHSTANDING ANY OTHER PROVISION CONTAINED HEREIN (OTHER THAN AS SET FORTH IN THE SECOND SENTENCE OF THIS SECTION 11.4), IN NO EVENT SHALL DOVA (OR ITS AFFILIATES) OR VALEANT (OR ITS AFFILIATES) BE LIABLE TO THE OTHER OR ANY OF THE OTHER PARTY'S AFFILIATES FOR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, SPECIAL, PUNITIVE OR EXEMPLARY DAMAGES (INCLUDING LOST PROFITS) SUFFERED OR INCURRED BY SUCH OTHER PARTY OR ITS AFFILIATES THAT ARISE OUT OF OR RELATE TO THIS AGREEMENT OR IN CONNECTION WITH A BREACH OR ALLEGED BREACH OF THIS AGREEMENT, WHETHER IN CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, AND REGARDLESS OF ANY NOTICE OF THE POSSIBILITY OF SUCH DAMAGES.",
+        "confidence": "high",
+        "chunk_id": 213,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits the types of damages (consequential, incidental, indirect, special, punitive, exemplary, and lost profits) that either party can recover from the other, which is a contractual limitation on recoverable damages.",
+        "risk_level": "low",
+        "risk_factors": [
+          "mutual exclusion of consequential damages",
+          "carve-out reference suggests exceptions exist"
+        ],
+        "risk_reasoning": "This is a standard mutual waiver of consequential damages that applies equally to both parties, with an explicit carve-out in the second sentence of Section 11.4 (not shown) that likely preserves liability for specific critical obligations, making this a balanced and market-typical limitation.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "Either Party shall have the right to terminate this Agreement before the end of the Term for its convenience upon [***] written notice to the other Party (and any such termination shall become effective at the end of such [***]); [***].",
+        "confidence": "high",
+        "chunk_id": 218,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly grants either party the right to terminate the agreement for convenience (without cause) upon written notice, which directly matches the definition of Termination for Convenience.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "redacted notice period",
+          "redacted financial consequences",
+          "mutual termination right may limit buyer flexibility",
+          "incomplete clause prevents full risk assessment"
+        ],
+        "risk_reasoning": "While mutual termination for convenience is generally balanced, the redacted notice period and financial consequences (indicated by [***]) prevent assessment of whether the buyer has adequate time to transition and whether termination fees or payment obligations are reasonable, creating uncertainty around exit costs and timing.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Agreement and any and all matters arising directly or indirectly herefrom shall be governed by and construed and enforced in accordance with the internal laws of the [***] applicable to agreements made and to be performed entirely in such state, including its statutes of limitation but without giving effect to the conflict of law principles thereof.",
+        "confidence": "high",
+        "chunk_id": 227,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly specifies that the agreement shall be governed by and construed in accordance with the internal laws of a particular state, which is the defining characteristic of a governing law provision.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Jurisdiction not specified (redacted)",
+          "Exclusion of conflict of law principles may limit buyer protections",
+          "Broad scope covering all matters arising 'directly or indirectly'"
+        ],
+        "risk_reasoning": "While the clause structure is standard, the redacted jurisdiction ([***]) prevents assessment of whether the governing law is favorable or neutral to the buyer, and the exclusion of conflict of law principles could prevent application of more favorable laws in cross-border disputes, making this worth reviewing to ensure the specified state's laws are acceptable and the buyer's location is not more advantageous.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 13,
+      "dropped": 0,
+      "flagged": 1,
+      "kept": 13
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement and any and all matters arising directly or indirectly herefrom shall be governed by and construed and enforced in accordance with the internal laws of the [***] applicable to agreements made and to be performed entirely in such state, including its statutes of limitation but without giving effect to the conflict of law principles thereof."
+      ],
+      "Termination for Convenience": [
+        "Either Party shall have the right to terminate this Agreement before the end of the Term for its convenience upon [***] written notice to the other Party (and any such termination shall become effective at the end of such [***]); [***]."
+      ],
+      "IP Ownership Assignment": [
+        "As between the Parties, Dova shall own all right, title and interest in and to any Product Materials (and all content contained therein) and any Product Labeling (and all content contained therein), including applicable copyrights and trademarks (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling), and to the extent Valeant (or any of its Affiliates) obtains or otherwise has a claim to any of the foregoing, Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content) (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling) to Dova and Valeant agrees to (and shall cause its applicable Affiliate to) execute all documents and take all actions as are reasonably requested by Dova to vest title to such Product Materials (and content) and Product Labeling (and content) in Dova (or its designated Affiliate).",
+        "The ownership, and all goodwill from the use, of any Dova Trademarks and Copyrights shall at all times vest in and inure to the benefit of Dova, and Valeant shall assign, and hereby does assign, any rights it may have in the foregoing to Dova.",
+        "Valeant agrees to assign, and hereby does assign, to Dova (and shall cause its Affiliates and its and their respective employees and other representatives to assign to Dova) any and all right, title and interest that Valeant (or any such Affiliates, employees or other representatives) may have in or to any Invention."
+      ],
+      "Liability Cap": [
+        "Notwithstanding the above, the sole remedy of Dova for breach of this Section 4.1.2 shall be (i) the adjustment to the promotion fee as set forth in Section 6.1.2 and (ii) the termination right set out in Section 12.2.2.",
+        "NOTWITHSTANDING ANY OTHER PROVISION CONTAINED HEREIN (OTHER THAN AS SET FORTH IN THE SECOND SENTENCE OF THIS SECTION 11.4), IN NO EVENT SHALL DOVA (OR ITS AFFILIATES) OR VALEANT (OR ITS AFFILIATES) BE LIABLE TO THE OTHER OR ANY OF THE OTHER PARTY'S AFFILIATES FOR ANY CONSEQUENTIAL, INCIDENTAL, INDIRECT, SPECIAL, PUNITIVE OR EXEMPLARY DAMAGES (INCLUDING LOST PROFITS) SUFFERED OR INCURRED BY SUCH OTHER PARTY OR ITS AFFILIATES THAT ARISE OUT OF OR RELATE TO THIS AGREEMENT OR IN CONNECTION WITH A BREACH OR ALLEGED BREACH OF THIS AGREEMENT, WHETHER IN CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE, AND REGARDLESS OF ANY NOTICE OF THE POSSIBILITY OF SUCH DAMAGES."
+      ]
+    }
+  },
+  {
+    "contract_id": "PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT ",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 23,
+    "clauses": [
+      {
+        "category": "IP Ownership Assignment",
+        "text": "Effective as of the Agreement Date, PPI hereby sells, transfers, conveys and assigns to EKR all right, title and interest in and to [**] (the \"Transferred NDA\").",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly transfers all right, title, and interest in a defined asset (the Transferred NDA) from one party to another, which is the hallmark of an ownership assignment provision.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Redacted asset description",
+          "No carve-outs or retained rights specified",
+          "No representations or warranties visible",
+          "Absolute assignment language without conditions"
+        ],
+        "risk_reasoning": "While the assignment language itself is standard, the redaction of the transferred asset description prevents assessment of scope appropriateness, and the clause lacks visible warranties about ownership, encumbrances, or third-party rights that typically protect the buyer in IP assignments.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "Upon termination of this Agreement for any reason except by EKR pursuant to Section 16.1(a), EKR shall promptly transfer the Transferred NDA and related regulatory documentation to PPI in accordance with Section 17.1(e).",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause describes post-termination obligations regarding the transfer of regulatory documentation, which does not fit any of the predefined categories such as governing law, termination rights, liability limits, indemnification, or IP ownership.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Ambiguous exception scope",
+          "Dependency on cross-referenced sections without context",
+          "Unclear what happens if EKR terminates under 16.1(a)",
+          "Potential loss of critical regulatory documentation"
+        ],
+        "risk_reasoning": "The clause creates uncertainty by excepting EKR's termination under Section 16.1(a) without clarifying what happens to the critical regulatory documentation (Transferred NDA) in that scenario, potentially leaving the buyer without access to essential regulatory assets if EKR terminates for certain reasons.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "On the Effective Date, PPI has transferred the Domain Names to EKR for use in connection with the exercise of the Distribution Rights. PPI has provided EKR with reasonable assistance as was necessary to effectuate the transfer of the Domain Names. Upon any termination or expiration of this Agreement, EKR shall promptly transfer the Domain Names back to PPI.",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause specifies the transfer and ownership of Domain Names (intellectual property) between parties, including their return upon termination, which directly addresses IP ownership and assignment rights.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "unclear ownership retention during term",
+          "ambiguous 'promptly' timeline for return",
+          "no protection if PPI entity changes or becomes insolvent",
+          "no specification of transfer costs or cooperation obligations"
+        ],
+        "risk_reasoning": "The clause creates operational uncertainty for EKR (buyer) by using vague timing ('promptly'), failing to clarify whether PPI retains underlying ownership during the distribution term, and lacking protections if PPI cannot or will not accept the domain transfer back upon termination, which could leave EKR holding assets it cannot use and potentially liable for.",
+        "validation_flags": [
+          "keywords_missing"
+        ]
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "effective upon the termination or expiration of the Transition Services and Inventory Agreement, PPI has assigned to EKR all of PPI's right, title and interest under that certain Commercial Outsourcing Services Agreement between PPI (f/k/a SkyePharma, Inc.) and Integrated Commercialization Solutions, Inc. (\"ICS\") dated April 3, 2007 (the \"ICS Agreement\"), and EKR has assumed all obligations and liabilities under the ICS Agreement arising after the Effective Date.",
+        "confidence": "medium",
+        "chunk_id": 5,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "medium",
+        "classifier_reasoning": "The clause describes PPI assigning all of its right, title, and interest in a commercial agreement to EKR, which constitutes a transfer of contractual rights and interests similar to intellectual property assignment provisions.",
+        "risk_level": "high",
+        "risk_factors": [
+          "assumption of unlimited liabilities without cap or qualification",
+          "assumption of obligations from unknown third-party agreement (ICS Agreement not attached or defined)",
+          "no carve-out for pre-existing breaches or claims",
+          "unclear scope of assumed obligations",
+          "no representation regarding status or compliance of assigned agreement"
+        ],
+        "risk_reasoning": "EKR assumes all obligations and liabilities under an undefined third-party agreement (ICS Agreement) without any cap, qualification, or knowledge of its terms, exposing the buyer to potentially unlimited and unknown liabilities arising from PPI's prior commercial relationship.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "effective as of the Agreement Date, PPI hereby sells, transfers, conveys and assigns to EKR all right, title and interest in and to the equipment described on Schedule XII (the \"Transferred Equipment\").",
+        "confidence": "high",
+        "chunk_id": 5,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause describes the sale and transfer of physical equipment ownership, which does not match any of the predefined categories that focus on governing law, termination rights, liability limits, indemnification, or intellectual property.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "no warranty of title or condition",
+          "no representations regarding encumbrances",
+          "as-is transfer implied",
+          "reliance on Schedule XII accuracy"
+        ],
+        "risk_reasoning": "This bare transfer clause lacks standard seller warranties regarding clear title, absence of liens/encumbrances, or equipment condition, leaving the buyer (EKR) exposed to potential defects in title or undisclosed claims without recourse.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "on the Agreement Date, EKR shall receive sole ownership of, and good and valid title to, the Transferred Equipment, free and clear of any liens and encumbrances",
+        "confidence": "high",
+        "chunk_id": 5,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause concerns the transfer of ownership of physical equipment free of liens, which does not match any of the predefined categories that focus on governing law, termination rights, liability limits, indemnification, or intellectual property.",
+        "risk_level": "low",
+        "risk_factors": [
+          "no warranty enforcement mechanism specified",
+          "timing ambiguity on 'Agreement Date'"
+        ],
+        "risk_reasoning": "This is standard transfer of title language requiring clean ownership free of encumbrances, which is market-typical for asset purchase provisions, though the buyer (EKR) should ensure there are corresponding seller warranties and remedies elsewhere in the agreement if this condition is not met.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "the Royalty Offset described in clause (i) of Section 6.3(b) shall not be applied against any Additional Royalty due PPI pursuant to Section 6.4. 6.4 Royalties. As further consideration for the license and grant of Distribution Rights and other rights under this Agreement, EKR shall pay to PPI a royalty (\"Royalty\") equal to (a) $[**] for each [**] mg Vial of Product sold during the Term and $[**] for each [**] mg Vial of Product sold during the Term (the \"Minimum Royalty\") plus (b) an additional [**]% of any post Effective Date incremental price increase implemented by EKR over the Current Base Price of $[**] for the [**] mg Vial and $[**] for the [**] mg Vial (the \"Additional Royalty\"); provided, however, that Additional Royalty shall not be payable to the extent that the sum of (i) the Minimum Royalty and Additional Royalty payable hereunder and (ii) the Supply Price (as defined in the Supply Agreement) shall at any time during the Term exceed [**] percent ([**]%) of the net average selling price of the Product (the \"Royalty Cap\"); provided, however, that the Royalty Cap shall be [**] percent ([**]%) of the net average selling price of the Product during certain periods as described in Section 6.3(e) above.",
+        "confidence": "medium",
+        "chunk_id": 8,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause defines royalty payment calculations, offsets, and caps, which is a pricing/payment provision that does not fit any of the predefined categories focused on governing law, termination, liability limits, indemnification, or IP ownership.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Redacted pricing terms prevent full risk assessment",
+          "Additional Royalty tied to buyer's own pricing decisions creates self-imposed cost increases",
+          "Complex royalty cap calculation with variable percentages and cross-references to supply agreement",
+          "Ambiguous interaction between multiple royalty components and offset restrictions",
+          "Potential for unintended cost escalation if price increases are implemented"
+        ],
+        "risk_reasoning": "The clause creates a mechanism where the buyer (EKR) pays higher royalties when it increases its own product prices, which is commercially unusual and could discourage optimal pricing strategy, while the redacted figures and complex cap calculations with cross-references make it difficult to assess whether the overall royalty burden is reasonable or could become excessive.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "PPI Improvements shall be owned by PPI and be licensed to EKR hereunder. EKR Improvements shall be owned by EKR and upon termination of this Agreement by PPI pursuant to Section, shall be deemed be licensed to PPI on a worldwide, non-exclusive, irrevocable basis, at a royalty or for such other consideration as may be mutually agreed upon by the parties in writing. Joint Improvements shall be owned jointly by the Parties, and PPI's interest therein shall be licensed to EKR hereunder.",
+        "confidence": "high",
+        "chunk_id": 11,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly allocates ownership of improvements (intellectual property) between PPI and EKR, specifying who owns what types of improvements and the licensing terms associated with each category.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Unilateral termination triggers automatic license grant",
+          "Undefined royalty terms create future negotiation risk",
+          "EKR improvements automatically licensed to PPI only upon PPI's termination",
+          "Asymmetric IP treatment favoring PPI",
+          "No reciprocal license rights if EKR terminates",
+          "Potential deadlock on royalty negotiation"
+        ],
+        "risk_reasoning": "This clause creates significant risk for EKR by automatically granting PPI a perpetual, irrevocable license to EKR's improvements if PPI terminates the agreement, with royalty terms left undefined and subject to future mutual agreement that may never be reached, while PPI retains full ownership of its improvements and the license only triggers on PPI's termination decision.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "10.8 PPI Liability Limitation. Any and all liability of PPI to EKR howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance, in contract tort or otherwise, shall be limited (except for death or  personal injury caused by the negligence of PPI or its employees while acting in the course of their employment) to [**] US Dollars ($[**]);  provided however that such limitation shall not apply to the extent that EKR or any EKR Indemnified Party is required to pay in excess of such  amount to a third party in respect of a final judgment or order obtained by the third party or as a result of PPI's breach of Section 7.2.12 of  the Supply Agreement.",
+        "confidence": "high",
+        "chunk_id": 15,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits PPI's total liability to EKR to a specified dollar amount (with certain exceptions), which is the defining characteristic of a liability cap provision.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Redacted liability cap amount prevents assessment of adequacy",
+          "Broad carve-out for third-party claims removes cap protection",
+          "Carve-out for Section 7.2.12 breach (content unknown)",
+          "Cap applies across multiple agreements simultaneously"
+        ],
+        "risk_reasoning": "While the clause includes standard exclusions for death/personal injury, the redacted cap amount cannot be evaluated for reasonableness, and the broad carve-out allowing unlimited liability whenever EKR must pay a third party in excess of the cap significantly undermines the protection, potentially exposing the buyer to substantial uncapped liability in common dispute scenarios.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "10.9 EKR Liability Limitation. Any and all liability of EKR to PPI howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance in contract tort or otherwise shall be limited (except for death or  personal injury caused by the negligence of EKR or its employees while acting in the course of their employment, and except in relation to  any specified payment, lump sum, milestone or royalty payment unpaid) to [**] US Dollars ($[**]); provided however that such limitation  shall not apply to the extent that PPI or any PPI Indemnified Party is required to pay in excess of such amount to a third party in respect of a  final judgment or order obtained by the third party.",
+        "confidence": "high",
+        "chunk_id": 15,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits EKR's total liability to PPI to a specified dollar amount (with certain exceptions for death, personal injury, and unpaid payments), which is the defining characteristic of a liability cap provision.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Redacted liability cap amount prevents assessment of adequacy",
+          "Cap applies across multiple agreements creating aggregate exposure",
+          "Third-party pass-through exception creates uncapped liability exposure",
+          "Broad scope covering 'howsoever arising' and multiple legal theories"
+        ],
+        "risk_reasoning": "While the clause includes standard carve-outs for death/personal injury and payment obligations, the redacted cap amount prevents proper risk assessment, and the third-party pass-through exception effectively creates uncapped liability for PPI when third parties obtain judgments, which could expose the buyer to significant unquantified risk across multiple related agreements.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "10.10 Limitation of Damages. Notwithstanding anything contained in this Agreement or the Transition Services and Inventory Agreement or the  Supply Agreement in no circumstance shall either Party be liable to the other in contract, tort (including negligence or breach of statutory  duty) or otherwise howsoever, and whatever the cause thereof, for any special, indirect or consequential loss or damage of any nature  whatsoever except in the cases of fraud or intentional misconduct or in the case of PPI as a result of PPI's breach of Section 7.2.12 of the  Supply Agreement.",
+        "confidence": "high",
+        "chunk_id": 15,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits the types of damages (excluding special, indirect, or consequential damages) that either party can recover, which is a contractual limitation on liability.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Mutual exclusion of consequential damages limits buyer's recovery",
+          "Carve-outs favor the supplier (PPI)",
+          "No cap on direct damages mentioned",
+          "Asymmetric exception structure"
+        ],
+        "risk_reasoning": "While the mutual exclusion of consequential damages is market-standard, the clause is somewhat asymmetric because it includes a specific carve-out allowing PPI (likely the supplier) to recover consequential damages for breach of Section 7.2.12, but provides no equivalent carve-out for the buyer, and notably does not address caps on direct damages which should typically accompany consequential damage exclusions.",
+        "validation_flags": [
+          "keywords_missing"
+        ]
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "EKR may terminate this Agreement for convenience at any time upon [**] ([**]) days prior, written notice to PPI.",
+        "confidence": "high",
+        "chunk_id": 17,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly grants EKR the right to terminate the agreement without cause ('for convenience') upon providing written notice with a specified number of days, which directly matches the definition of termination for convenience.",
+        "risk_level": "high",
+        "risk_factors": [
+          "unilateral termination right",
+          "asymmetric termination provision",
+          "no reciprocal buyer termination right",
+          "potential for supplier leverage"
+        ],
+        "risk_reasoning": "This clause grants only the supplier (EKR) the right to terminate for convenience while the buyer (PPI) appears to have no corresponding right, creating significant asymmetry and exposing the buyer to potential service disruption and loss of negotiating leverage without reciprocal protection.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "Notwithstanding the foregoing, this Agreement can be terminated by EKR at the end of the Initial Term by delivery of written notice to PPI at least one hundred eighty (180) days prior to the end of the Initial Term or any renewal term.",
+        "confidence": "high",
+        "chunk_id": 17,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause grants EKR the right to terminate the agreement at the end of a term by providing 180 days' written notice, which is termination without needing to show cause.",
+        "risk_level": "high",
+        "risk_factors": [
+          "unilateral termination right",
+          "asymmetric termination provision",
+          "buyer lacks termination for convenience right",
+          "180-day notice period may be excessive"
+        ],
+        "risk_reasoning": "This clause grants only EKR (presumably the supplier/vendor) the unilateral right to terminate for convenience, leaving the buyer (PPI) without reciprocal termination rights and potentially locked into the agreement with no exit mechanism other than breach or mutual agreement.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "If the affected Party is prevented by reason of any circumstances referred to in this Section of this Agreement from performing any of its obligations hereunder for a continuous period of six (6) months the other Party may terminate this Agreement.",
+        "confidence": "medium",
+        "chunk_id": 19,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause describes termination rights triggered by force majeure or similar circumstances preventing performance for six months, which does not match any of the predefined categories (it is not termination for convenience as it requires a specific cause, nor does it fit the other categories).",
+        "risk_level": "medium",
+        "risk_factors": [
+          "ambiguous trigger reference",
+          "mutual termination right without context",
+          "no distinction between party obligations",
+          "missing force majeure definition"
+        ],
+        "risk_reasoning": "The clause references 'circumstances referred to in this Section' without providing the actual force majeure definition or triggers, creating ambiguity about when termination rights arise, and the mutual six-month threshold may be problematic if the supplier's non-performance (due to force majeure) causes greater harm to the buyer than the reverse scenario.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Agreement and the relationship between the Parties shall be governed by, and interpreted in accordance with New York law without regard to provisions related to conflicts of laws, and, except as provided in Section 21.2 above, the Parties agree to submit any dispute to the exclusive jurisdiction of the federal and state courts sitting in New York.",
+        "confidence": "high",
+        "chunk_id": 21,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly states that the agreement shall be governed by and interpreted in accordance with New York law and specifies the jurisdiction of New York courts for dispute resolution.",
+        "risk_level": "low",
+        "risk_factors": [
+          "exclusive jurisdiction clause",
+          "reference to unspecified Section 21.2"
+        ],
+        "risk_reasoning": "This is standard governing law language with New York law being widely accepted and commercially neutral, though the buyer should verify that Section 21.2 (likely arbitration or alternative dispute resolution) doesn't contain unfavorable terms and confirm that litigating in New York courts is operationally and financially feasible for their organization.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "In the event that the Chief Executive Officers are unable to resolve the dispute and the dispute has a monetary value of cost of [**] dollars ($[**]) or more, the dispute shall be submitted to the federal or state courts located in the State of California, which shall have exclusive jurisdiction over such dispute.",
+        "confidence": "high",
+        "chunk_id": 22,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause specifies that federal or state courts in California have exclusive jurisdiction over disputes, which directly relates to the legal forum and governing authority for contract enforcement.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "exclusive jurisdiction in potentially inconvenient forum",
+          "California venue may favor seller if they are California-based",
+          "monetary threshold redacted making scope unclear",
+          "no alternative dispute resolution mechanism specified"
+        ],
+        "risk_reasoning": "The clause imposes exclusive California jurisdiction which could create significant inconvenience and cost if the buyer is located elsewhere, and the redacted monetary threshold prevents assessment of how broadly this applies, though the escalation to CEO level before litigation is a reasonable gate.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Bill of Sale shall be governed by, and construed in accordance with, the laws of the State of New York, without regard to the conflicts of law principles thereof.",
+        "confidence": "high",
+        "chunk_id": 22,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly states that the Bill of Sale shall be governed by and construed in accordance with the laws of the State of New York, which directly matches the definition of a governing law provision.",
+        "risk_level": "low",
+        "risk_factors": [
+          "conflicts of law exclusion"
+        ],
+        "risk_reasoning": "This is standard governing law language with New York law being a well-established, business-friendly jurisdiction, and the conflicts of law exclusion is market-typical to ensure predictable application of the chosen state's substantive law.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Note shall be governed by and construed in accordance with the laws of the State of New York, excluding any conflict-of-laws rule or principle that may refer the governance, construction or interpretation of this Note to the laws of another State.",
+        "confidence": "high",
+        "chunk_id": 22,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly specifies that the Note shall be governed by and construed in accordance with the laws of the State of New York, which directly matches the definition of a governing law provision.",
+        "risk_level": "low",
+        "risk_factors": [
+          "New York law selection",
+          "Exclusion of conflict-of-laws principles"
+        ],
+        "risk_reasoning": "This is standard market language for a governing law clause, with New York law being widely accepted in commercial transactions and the conflict-of-laws exclusion being typical to ensure certainty, though the buyer should confirm New York law is acceptable for their specific transaction and that a corresponding jurisdiction clause exists for dispute resolution.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 29,
+      "dropped": 1,
+      "flagged": 4,
+      "kept": 28
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement and the relationship between the Parties shall be governed by, and interpreted in accordance with New  York law without regard to provisions related to conflicts of laws, and, except as provided in Section 21.2 above, the Parties agree to submit  any dispute to the exclusive jurisdiction of the federal and state courts sitting in New York."
+      ],
+      "Termination for Convenience": [
+        "At any time after July 1, 2015, PPI shall have the right, exercisable upon sixty (60) days prior written notice to EKR, to terminate the Lease Term and repurchase the Transferred Equipment from EKR, subject to payment by PPI to EKR within five (5) days of such  notice of any principal paid by EKR under the Promissory Note, which if exercised shall result in the termination of the Step-in Right  set forth in Section 17.5.",
+        "At any time between the Agreement Date and July 1, 2015, EKR shall have the right, exercisable upon sixty (60) days prior written  notice to PPI, to terminate the Lease Term and sell the Transferred Equipment back to PPI, subject to payment by PPI to EKR within  five (5) days of such notice of $[**] in cash, which if exercised shall result in (i) an offset against the unpaid balance of principal and  interest under the Promissory Note pursuant to Section 3.20(f) below; and (ii) the termination of the Step-in Right described in  Section 17.5.",
+        "EKR may terminate this Agreement for convenience at any time upon [**] ([**]) days prior, written notice to PPI."
+      ],
+      "IP Ownership Assignment": [
+        "Upon termination of this Agreement for any reason except by EKR pursuant to Section 16.1(a), EKR shall promptly transfer the Transferred NDA and related regulatory documentation to PPI in accordance with Section 17.1(e).",
+        "Upon any termination or expiration of this Agreement, EKR shall promptly transfer the Domain Names back to PPI.",
+        "(d) EKR shall assign to PPI free of charge any domain name registrations it has registered pursuant to Section 8.5;",
+        "On the Effective Date, PPI has transferred the Domain Names to EKR for use in connection with the exercise of  the Distribution Rights.",
+        "Promptly after the Agreement  Date, PPI shall provide EKR with copies of all agreements relating to the Required Studies and shall assign such agreements to EKR if and  to the extent (i) such agreements are assignable in accordance with their terms and (ii) requested by EKR.",
+        "Effective as of the Agreement Date, PPI hereby sells, transfers, conveys and assigns to EKR all right, title  and interest in and to [**] (the \"Transferred NDA\").",
+        "Upon termination of this Agreement for any reason except as set forth in Section 17.4 below (and, if applicable, in respect of that country in  respect of which termination occurs):"
+      ],
+      "Liability Cap": [
+        "however that such limitation shall not apply to the extent that EKR or any EKR Indemnified Party is required to pay in excess of such  amount to a third party in respect of a final judgment or order obtained by the third party or as a result of PPI's breach of Section 7.2.12 of  the Supply Agreement.",
+        "Any and all liability of PPI to EKR howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance, in contract tort or otherwise, shall be limited (except for death or  personal injury caused by the negligence of PPI or its employees while acting in the course of their employment) to [**] US Dollars ($[**]);  provided",
+        "Notwithstanding anything contained in this Agreement or the Transition Services and Inventory Agreement or the  Supply Agreement in no circumstance shall either Party be liable to the other in contract, tort (including negligence or breach of statutory  duty) or otherwise howsoever, and whatever the cause thereof, for any special, indirect or consequential loss or damage of any nature  whatsoever except in the cases of fraud or intentional misconduct or in the case of PPI as a result of PPI's breach of Section 7.2.12 of the  Supply Agreement.",
+        "Any and all liability of EKR to PPI howsoever arising in respect of this Agreement, the Transition Services and Inventory Agreement or the Supply Agreement and their performance in contract tort or otherwise shall be limited (except for death or  personal injury caused by the negligence of EKR or its employees while acting in the course of their employment, and except in relation to  any specified payment, lump sum, milestone or royalty payment unpaid) to [**] US Dollars ($[**]); provided however that such limitation  shall not apply to the extent that PPI or any PPI Indemnified Party is required to pay in excess of such amount to a third party in respect of a  final judgment or order obtained by the third party."
+      ]
+    }
+  },
+  {
+    "contract_id": "DOMINIADVISORTRUST_02_18_2005-EX-99.(H)(2)-SPONSORSHIP AGREEMENT",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 1,
+    "clauses": [
+      {
+        "category": "Termination for Convenience",
+        "text": "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party.",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly allows either party to terminate the agreement at any time without cause or penalty, requiring only 60 days' written notice, which is the defining characteristic of termination for convenience.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "mutual termination right without cause",
+          "no compensation for early termination",
+          "potential loss of sunk costs and transition expenses",
+          "60-day notice period may be insufficient for complex arrangements"
+        ],
+        "risk_reasoning": "While the termination right is mutual and includes reasonable notice, the absence of any compensation mechanism exposes the buyer to potential loss of implementation costs, transition expenses, and stranded investments if the Sponsor terminates, which is somewhat asymmetric given the buyer typically bears setup costs.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "The Sponsor shall not be liable for any error of judgment or mistake of law or for any act or omission in the oversight, administration or management of the Trust or the performance of its duties hereunder, except for willful misfeasance, bad faith or gross negligence in the performance of its duties, or by reason of the reckless disregard of its obligations and duties hereunder.",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause limits the Sponsor's liability by specifying that they shall not be liable except in cases of willful misfeasance, bad faith, gross negligence, or reckless disregard, thereby capping their exposure to only egregious conduct.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Extremely high liability threshold (gross negligence standard)",
+          "Broad exculpation for errors of judgment and mistakes of law",
+          "No monetary liability cap despite category label",
+          "Ordinary negligence explicitly excluded from liability",
+          "Unilateral protection favoring service provider"
+        ],
+        "risk_reasoning": "This clause is actually an exculpation provision rather than a liability cap, and it severely limits the buyer's recourse by exempting the Sponsor from liability for ordinary negligence and routine errors, requiring proof of willful misconduct or gross negligence which creates an extremely high bar for recovery and shifts substantial risk to the buyer.",
+        "validation_flags": [
+          "keywords_missing"
+        ]
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Agreement shall be construed and enforced and interpreted in accordance with and governed by the laws of the Commonwealth of Massachusetts without reference to principles of conflicts of law.",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly specifies that the agreement shall be governed by and interpreted in accordance with the laws of the Commonwealth of Massachusetts, which directly matches the definition of a governing law provision.",
+        "risk_level": "low",
+        "risk_factors": [
+          "exclusion of conflicts of law principles"
+        ],
+        "risk_reasoning": "This is standard governing law language with Massachusetts law as the choice, and the exclusion of conflicts of law principles is market-typical to prevent the clause from pointing to another jurisdiction's laws; risk level depends on whether Massachusetts law is reasonable given the parties' locations and subject matter, but the clause structure itself is balanced.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 3,
+      "dropped": 0,
+      "flagged": 1,
+      "kept": 3
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement shall be construed and enforced and interpreted in accordance with and governed by the laws of the Commonwealth of Massachusetts without reference to principles of conflicts of law."
+      ],
+      "Termination for Convenience": [
+        "This Agreement may be terminated at any time, without the payment of any penalty, with respect to any series or the Trust, by the Board of Trustees of the Trust, or by the Sponsor, in each case on not less than 60 days' written notice to the other party."
+      ],
+      "Liability Cap": [
+        "Limitation of Liability of the Sponsor."
+      ]
+    }
+  },
+  {
+    "contract_id": "CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 54,
+    "clauses": [
+      {
+        "category": "IP Ownership Assignment",
+        "text": "In order to carry out the intent of the Parties with respect to the recordation of the transfers of any registrations or applications of Nuance IP or SpinCo IP, as applicable, to the extent the ownership thereof has transferred from a member of the Nuance Group to a member of the SpinCo Group, or vice versa, pursuant to the Separation Agreement or any other Ancillary Agreement, the Parties shall execute intellectual property assignments in a form substantially similar to that attached as Exhibit A1 (the \"Patent Assignment Agreement\"), Exhibit A2 (the \"Trademark Assignment Agreement\"), Exhibit A3 (the \"Domain Name Assignment Agreement\") and Exhibit A4 (the \"Invention Disclosure Assignment Agreement\") as well as such additional case specific assignments as deemed appropriate or necessary under applicable Laws (collectively, the \"Intellectual Property Assignment Agreements\") for recordation with the appropriate Governmental Authority.",
+        "confidence": "high",
+        "chunk_id": 13,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause specifically addresses the execution of intellectual property assignment agreements to transfer ownership of patents, trademarks, domain names, and inventions between parties and record these transfers with governmental authorities.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Ambiguous scope - 'vice versa' creates uncertainty about direction of transfers",
+          "Undefined 'appropriate or necessary' standard allows unilateral determination",
+          "No limitation on number or cost of additional assignments required",
+          "Dependency on external exhibits not provided for review",
+          "Unclear which party bears costs of recordation and preparation"
+        ],
+        "risk_reasoning": "This clause from a separation/spin-off agreement contains standard IP assignment mechanics but lacks clarity on the scope of 'vice versa' transfers, provides no cost allocation mechanism, and gives discretion for 'additional case specific assignments' without defined limits, creating potential for disputes and unexpected obligations.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "The relevant assignee Party shall have the sole responsibility, at its sole cost and expense, to file the Intellectual Property Assignment Agreements and any other forms or documents with the appropriate Governmental Authorities as required to record the transfer of any registrations or applications of Nuance IP or SpinCo IP that is allocated under the Separation Agreement, as applicable, and the relevant assignor Party hereby consents to such recordation.",
+        "confidence": "high",
+        "chunk_id": 14,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause specifies the procedural responsibilities for recording and transferring intellectual property registrations and applications between parties as allocated under a separation agreement, which directly relates to IP ownership assignment mechanics.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "Assignee bears sole cost of filing and recordation",
+          "Ambiguity regarding which party is assignee vs assignor in specific transactions",
+          "No cap on filing costs or expenses",
+          "Consent is irrevocable without conditions"
+        ],
+        "risk_reasoning": "While the clause follows a typical separation agreement structure, it places uncapped filing costs on the assignee without clarity on cost allocation between parties, and the buyer's role as assignee or assignor depends on the underlying Separation Agreement terms which are not visible here, creating potential for unexpected administrative cost burdens.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "SpinCo hereby acknowledges Nuance's right, title and interest in and to the Nuance IP.",
+        "confidence": "high",
+        "chunk_id": 17,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly acknowledges one party's ownership rights in intellectual property (Nuance IP), which directly relates to specifying IP ownership under the contract.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "acknowledgment only without reciprocal rights",
+          "no definition of Nuance IP scope",
+          "unclear whether SpinCo retains any IP rights",
+          "potential ambiguity on work product ownership"
+        ],
+        "risk_reasoning": "This clause is one-sided, requiring SpinCo to acknowledge Nuance's IP rights without defining the scope of 'Nuance IP,' establishing what IP SpinCo may own or license, or clarifying ownership of any deliverables or work product created under the contract, which could lead to disputes over IP rights in jointly developed materials or SpinCo contributions.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "Nuance hereby acknowledges SpinCo's right, title and interest in and to the SpinCo IP.",
+        "confidence": "high",
+        "chunk_id": 19,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly acknowledges one party's ownership rights in intellectual property (SpinCo IP), which directly relates to specifying IP ownership under the contract.",
+        "risk_level": "high",
+        "risk_factors": [
+          "mere acknowledgment without assignment language",
+          "no actual transfer of IP rights to buyer",
+          "unclear scope of 'SpinCo IP'",
+          "missing work product assignment clause",
+          "no future IP assignment provision"
+        ],
+        "risk_reasoning": "This clause only acknowledges pre-existing IP ownership rather than assigning newly created IP to the buyer, which is critically insufficient if the buyer expects to own deliverables or work product created under the contract.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "Without limiting the terms set forth in Section 6.09 of the Separation Agreement, none of Nuance, SpinCo or any other member of either Group shall in any event have any Liability to the other or to any other member of the other's Group under this Agreement for any indirect, special, punitive or consequential damages, whether or not caused by or resulting from negligence or breach of obligations hereunder and whether or not informed of the possibility of the existence of such damages.",
+        "confidence": "high",
+        "chunk_id": 29,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits the types of damages (indirect, special, punitive, or consequential) that parties can recover from each other, which is a contractual limitation on liability.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "mutual exclusion of consequential damages",
+          "reference to external Separation Agreement",
+          "broad waiver applies even for negligence or breach"
+        ],
+        "risk_reasoning": "While the mutual exclusion of consequential damages is market-standard and protects both parties, the clause's reference to an external Separation Agreement (Section 6.09) creates ambiguity about whether additional liability limitations exist that could further restrict the buyer's remedies, and the explicit application even in cases of negligence or breach is somewhat aggressive though typical in separation contexts.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "This Agreement may be terminated by Nuance at any time, in its sole discretion, prior to the Distribution",
+        "confidence": "high",
+        "chunk_id": 34,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause grants Nuance the unilateral right to terminate the agreement at any time in its sole discretion without requiring cause, which is the defining characteristic of termination for convenience.",
+        "risk_level": "high",
+        "risk_factors": [
+          "unilateral termination right",
+          "no reciprocal buyer termination right",
+          "no notice period specified",
+          "no compensation or wind-down provisions mentioned",
+          "termination at sole discretion with no cause required"
+        ],
+        "risk_reasoning": "This clause grants Nuance (presumably the supplier) an unrestricted unilateral right to terminate at any time without cause, notice period, or apparent compensation obligations, while providing no reciprocal termination right to the buyer, creating severe asymmetry and exposing the buyer to sudden service disruption and potential stranded costs.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "Any disputes relating to, arising out of or resulting from this Agreement, including to its execution, performance, or enforcement, shall be governed by, and construed in accordance with, the Laws of the State of Delaware, regardless of the Laws that might otherwise govern under applicable principles of conflicts of Laws thereof.",
+        "confidence": "high",
+        "chunk_id": 39,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly states that disputes shall be governed by and construed in accordance with the Laws of the State of Delaware, which directly specifies the governing law for the contract.",
+        "risk_level": "low",
+        "risk_factors": [
+          "Delaware law selection",
+          "conflicts of law waiver"
+        ],
+        "risk_reasoning": "This is standard governing law language with Delaware being a common, well-established jurisdiction for commercial contracts with predictable case law, though the buyer should confirm Delaware law is acceptable given their location and the contract's subject matter.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 7,
+      "dropped": 0,
+      "flagged": 0,
+      "kept": 7
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "Any disputes relating to, arising out of or resulting from this Agreement, including to its execution, performance, or enforcement, shall be governed by, and construed in accordance with, the Laws of the State of Delaware, regardless of the Laws that might otherwise govern under applicable principles of conflicts of Laws thereof."
+      ],
+      "Termination for Convenience": [
+        "This Agreement may be terminated by Nuance at any time, in its sole discretion, prior to the Distribution; provided, however, that this Agreement shall automatically terminate upon the termination of the Separation Agreement in accordance with its terms."
+      ],
+      "IP Ownership Assignment": [
+        "In order to carry out the intent of the Parties with respect to the recordation of the transfers of any registrations or applications of Nuance IP or SpinCo IP, as applicable, to the extent the ownership thereof has transferred from a member of the Nuance Group to a member of the SpinCo Group, or vice versa, pursuant to the Separation Agreement or any other Ancillary Agreement, the Parties shall execute intellectual property assignments in a form substantially similar to that attached as Exhibit A1 (the \"Patent Assignment Agreement\"), Exhibit A2 (the \"Trademark Assignment Agreement\"), Exhibit A3 (the \"Domain Name Assignment Agreement\") and Exhibit A4 (the \"Invention Disclosure Assignment Agreement\") as well as such additional case specific assignments as deemed appropriate or necessary under applicable Laws (collectively, the \"Intellectual Property Assignment Agreements\") for recordation with the appropriate Governmental Authority."
+      ],
+      "Liability Cap": [
+        "Without limiting the terms set forth in Section 6.09 of the Separation Agreement, none of Nuance, SpinCo or any other member of either Group shall in any event have any Liability to the other or to any other member of the other's Group under this Agreement for any indirect, special, punitive or consequential damages, whether or not caused by or resulting from negligence or breach of obligations hereunder and whether or not informed of the possibility of the existence of such damages."
+      ]
+    }
+  },
+  {
+    "contract_id": "ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 3,
+    "clauses": [
+      {
+        "category": "Liability Cap",
+        "text": "A Party that breaches this Agreement will only be liable to the other Party for direct damages arising from the breach. Each Party waives any right to recover consequential, incidental, indirect, exemplary, punitive or any other types of indirect damages from the other Party for a breach of this Agreement.",
+        "confidence": "high",
+        "chunk_id": 0,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause contractually limits the types of damages recoverable to direct damages only, explicitly excluding consequential, incidental, indirect, exemplary, and punitive damages, which is a limitation on liability.",
+        "risk_level": "high",
+        "risk_factors": [
+          "no monetary cap on direct damages",
+          "mutual waiver may prevent recovery for significant business losses",
+          "no carve-outs for critical obligations like IP indemnity or confidentiality breaches",
+          "definition of 'direct damages' may be disputed"
+        ],
+        "risk_reasoning": "While the mutual waiver of consequential damages is standard, the complete absence of any monetary cap on direct damages combined with no carve-outs for fundamental obligations (IP infringement, confidentiality, data breaches) exposes the buyer to potentially unlimited liability, which is commercially unfavorable and deviates from market practice that typically includes caps and specific exclusions.",
+        "validation_flags": [
+          "keywords_missing"
+        ]
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Agreement and all claims or causes of action arising out of or related to this Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of the State of Illinois and the United States of America, without giving effect to its principles or rules of conflict of laws. The United Nations Convention on Contracts for the International Sale of Goods will not govern or otherwise be applicable to this Agreement.",
+        "confidence": "high",
+        "chunk_id": 1,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly specifies that the Agreement shall be governed by the laws of the State of Illinois and the United States of America, which directly matches the definition of a governing law provision.",
+        "risk_level": "low",
+        "risk_factors": [
+          "Illinois law selection",
+          "CISG exclusion"
+        ],
+        "risk_reasoning": "This is standard governing law language with typical CISG exclusion; the only consideration is whether Illinois law is acceptable to the buyer based on their location and familiarity with that jurisdiction, but the clause itself contains no unusual or unfavorable terms.",
+        "validation_flags": []
+      },
+      {
+        "category": "IP Ownership Assignment",
+        "text": "Except for the limited right to disclose and use Confidential Information of a Disclosing Party for the Authorized Purpose and other purposes provided in the this Section and except for any license of intellectual property granted by a Disclosing Party to the Receiving Party in a Purchase Schedule, this Agreement does not grant a Receiving Party or its Representatives any right, title, interest or ownership in the Confidential Information of the Disclosing Party nor in any patent, trademark, copyright or other intellectual property of the Disclosing Party. As between the Parties during the Term, to be effective, the grant of any right, title, interest and ownership in and to any Confidential Information of Party or in an patents, trademarks, copyrights and other intellectual property of the Party must be in writing and signed by the chief executive officers of the Parties.",
+        "confidence": "high",
+        "chunk_id": 1,
+        "classified_category": "IP Ownership Assignment",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly addresses intellectual property rights by clarifying that no ownership, title, or interest in intellectual property is transferred except through specific written agreements signed by CEOs, which directly relates to IP ownership provisions.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "CEO signature requirement for IP transfers",
+          "Unclear scope of 'Authorized Purpose'",
+          "Potential barrier to work product ownership",
+          "Ambiguous application to deliverables created under contract"
+        ],
+        "risk_reasoning": "While the clause appropriately preserves each party's IP rights, the requirement that IP transfers must be signed by CEOs creates an unusually high approval threshold that could delay or prevent the buyer from obtaining ownership of custom work product or deliverables, which is typically handled at the contract manager level and should be addressed in the main agreement or purchase schedules rather than requiring C-level intervention for each transfer.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 6,
+      "dropped": 0,
+      "flagged": 1,
+      "kept": 6
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement and all claims or causes of action arising out of or related to this Agreement shall be governed in all respects, including as to validity, interpretation and effect, by the laws of the State of Illinois and the United States of America, without giving effect to its principles or rules of conflict of laws."
+      ],
+      "Liability Cap": [
+        "A Party that breaches this Agreement will only be liable to the other Party for direct damages arising from the breach.",
+        "Each Party waives any right to recover consequential, incidental, indirect, exemplary, punitive or any other types of indirect damages from the other Party for a breach of this Agreement.",
+        "If a Buyer receives a product that fails to conform to these representations and warranties, the sole remedies of Buyer for the breach of warranty will be to: (1) reject and return the non-conforming product to Seller for a refund or credit, or a replacement conforming product, in the manner and time period provided in the SOP; (2) obtain reimbursement from Seller for actual, reasonable, substantiated out-of-pocket expenses incurred by Buyer in the recovery, return or disposal of a non-conforming product that is the subject of a mandatory product recall required under Applicable Laws or a voluntary withdrawal declared by Seller or approved by Seller (such approval not to be unreasonably withheld, conditioned or delayed); and (3) obtain indemnification from Seller for any Indemnified Claim arising from or related to the non-conforming product as provided in Section 7."
+      ]
+    }
+  },
+  {
+    "contract_id": "INTRICONCORP_03_10_2009-EX-10.22-Strategic Alliance Agreement",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 59,
+    "clauses": [
+      {
+        "category": "Liability Cap",
+        "text": "Dynamic Hearing's aggregate liability to IntriCon for direct loss and damages and all other liability not described herein arising in connection with this Agreement whether in negligence, tort, equity, contract or otherwise, is limited to payment of damages recoverable at law or equity up to a maximum of (and, for the sake of clarity must not exceed) $5m",
+        "confidence": "high",
+        "chunk_id": 45,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly limits Dynamic Hearing's aggregate liability to IntriCon to a maximum of $5 million for all types of claims, which is the defining characteristic of a liability cap provision.",
+        "risk_level": "high",
+        "risk_factors": [
+          "buyer receiving liability cap instead of providing one",
+          "cap protects supplier not buyer",
+          "reversed liability protection",
+          "buyer's recovery limited to $5m"
+        ],
+        "risk_reasoning": "This clause is structured backwards from the buyer's perspective - it caps Dynamic Hearing's liability TO IntriCon (the buyer), meaning the buyer's ability to recover damages is limited to $5m, which is highly unfavorable as the buyer typically wants the supplier's liability capped in their favor, not their own recovery rights limited.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "Dynamic Hearing is not liable in any way to IntriCon for any indirect, consequential, third party, special or incidental harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect commercial or economic loss of any kind whatsoever incurred by IntriCon whether in negligence, tort, equity, contract or otherwise, arising in connection with this Agreement",
+        "confidence": "high",
+        "chunk_id": 45,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits Dynamic Hearing's liability by excluding specific types of damages (indirect, consequential, special, incidental, loss of profits, etc.) that IntriCon can recover, which is a contractual limitation on recoverable damages.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Unilateral exclusion favoring supplier only",
+          "No reciprocal protection for buyer",
+          "Missing liability cap on direct damages",
+          "Excludes loss of data which may be critical business impact",
+          "No carve-outs for gross negligence or willful misconduct",
+          "Asymmetric allocation - buyer appears to have no corresponding protection"
+        ],
+        "risk_reasoning": "This clause provides one-sided protection exclusively to Dynamic Hearing (the supplier) while offering no reciprocal limitation for IntriCon (the buyer), and critically fails to include any cap on direct damages or standard carve-outs, leaving the buyer exposed to potentially unlimited liability for direct losses caused by the supplier.",
+        "validation_flags": []
+      },
+      {
+        "category": "Liability Cap",
+        "text": "IntriCon is not liable in any way to Dynamic Hearing for any indirect, consequential, third party, special or incidental harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect commercial or economic loss of any kind whatsoever incurred by Dynamic Hearing whether in negligence, tort, equity, contract or otherwise, arising in connection with this Agreement",
+        "confidence": "high",
+        "chunk_id": 45,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits IntriCon's liability by excluding specific types of damages (indirect, consequential, special, incidental, loss of profits, etc.) that Dynamic Hearing can recover, which is a contractual limitation on recoverable damages.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Unilateral exclusion favoring supplier only",
+          "No reciprocal protection for buyer",
+          "Excludes loss of data without carve-out",
+          "No liability cap on direct damages mentioned",
+          "Overly broad exclusion of consequential damages including loss of profits"
+        ],
+        "risk_reasoning": "This clause is one-sided, protecting only IntriCon (the supplier) while providing no reciprocal exclusion for Dynamic Hearing (the buyer), and dangerously excludes liability for loss of data which should typically have carve-outs, leaving the buyer exposed to significant uncompensated losses.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "Subject to the provisions of 11.1, either party may terminate this Agreement immediately by written notice to the other party if:",
+        "confidence": "low",
+        "chunk_id": 47,
+        "classified_category": "OTHER",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause introduces conditions for immediate termination with cause (not for convenience), which does not match any of the provided categories that focus on governing law, termination without cause, liability limits, indemnification, or IP ownership.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "incomplete clause - missing termination grounds",
+          "reference to undefined provision 11.1",
+          "cannot assess balance without termination triggers"
+        ],
+        "risk_reasoning": "This clause is incomplete as it introduces termination rights but does not specify the actual termination grounds, and references provision 11.1 which is not provided, making it impossible to assess whether the termination triggers are balanced or favor one party.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "Subject to the provisions of 11.1, IntriCon may terminate this Agreement upon three (3) months written notice to Dynamic  Hearing, such notice stating that IntriCon will cease making payments, either minimum or second component payments or both, and such  termination shall not be considered a breach of this Agreement.",
+        "confidence": "high",
+        "chunk_id": 50,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause grants IntriCon the right to terminate the agreement with three months' written notice without it being considered a breach, which is the defining characteristic of termination for convenience.",
+        "risk_level": "high",
+        "risk_factors": [
+          "Unilateral termination right favoring counterparty only",
+          "No reciprocal termination right for buyer",
+          "Asymmetric termination for convenience provision",
+          "Potential loss of contracted minimum payments without recourse",
+          "Three-month notice may be insufficient for alternative sourcing"
+        ],
+        "risk_reasoning": "This clause grants IntriCon (the supplier) unilateral termination rights while appearing to deny Dynamic Hearing (the buyer) equivalent rights, creating a severely one-sided arrangement where the buyer loses contracted payment protections without reciprocal protection or the ability to terminate for convenience themselves.",
+        "validation_flags": []
+      },
+      {
+        "category": "Termination for Convenience",
+        "text": "Subject to the provisions of 11.1, Dynamic Hearing may terminate this Agreement upon three (3) months written notice  to IntriCon of such termination.",
+        "confidence": "high",
+        "chunk_id": 50,
+        "classified_category": "Termination for Convenience",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause grants Dynamic Hearing the right to terminate the agreement with three months' written notice without requiring cause, which is the defining characteristic of termination for convenience.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "subject to unknown provisions in 11.1",
+          "unilateral termination right for one party only",
+          "lack of reciprocity"
+        ],
+        "risk_reasoning": "While the 3-month notice period is reasonable, the clause grants termination rights only to Dynamic Hearing (not the buyer/client if that is IntriCon), and critically, it is subject to Section 11.1 which may contain restrictions, penalties, or conditions that could significantly limit or burden this termination right.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Agreement is governed by the laws of Victoria, Australia and the parties submit to the jurisdiction of the courts of Victoria, Australia. The 1980 United Nations Convention on Contracts for the International Sale of Goods does not apply to this Agreement.",
+        "confidence": "high",
+        "chunk_id": 58,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly specifies that the agreement is governed by the laws of Victoria, Australia and designates the jurisdiction for dispute resolution, which directly matches the definition of a governing law provision.",
+        "risk_level": "low",
+        "risk_factors": [
+          "exclusive jurisdiction clause",
+          "CISG exclusion"
+        ],
+        "risk_reasoning": "This is standard governing law wording with Victorian law and jurisdiction, and the CISG exclusion is common commercial practice; the only consideration is whether the buyer's location and convenience for dispute resolution in Victoria is acceptable, which is a business rather than legal risk factor.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 10,
+      "dropped": 0,
+      "flagged": 1,
+      "kept": 10
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement is governed by the laws of Victoria, Australia and the parties submit to the jurisdiction of the courts of Victoria,  Australia"
+      ],
+      "Termination for Convenience": [
+        "Subject to the provisions of 11.1, Dynamic Hearing may terminate this Agreement upon three (3) months written notice  to IntriCon of such termination."
+      ],
+      "Liability Cap": [
+        "IntriCon is not liable in any way to Dynamic Hearing for any indirect, consequential, third party, special or incidental  harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect  commercial or economic loss of any kind whatsoever incurred by Dynamic Hearing whether in negligence, tort, equity,  contract or otherwise, arising in connection with this Agreement;",
+        "(i)    if the breach relates to goods:\n\n          (A)    the replacement of goods or the supply of equivalent goods; or\n\n          (B)    the repair of such goods; and\n\n          (ii)    if the breach relates to services: the supplying of the services again.",
+        "Dynamic Hearing is not liable in any way to IntriCon for any indirect, consequential, third party, special or incidental  harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect  commercial or economic loss of any kind whatsoever incurred by IntriCon whether in negligence, tort, equity, contract  or otherwise, arising in connection with this Agreement;",
+        "Dynamic Hearing's aggregate liability to IntriCon for direct loss and damages and all other liability not described herein  arising in connection with this Agreement whether in negligence, tort, equity, contract or otherwise, is limited to  payment of damages recoverable at law or equity up to a maximum of (and, for the sake of clarity must not exceed) $5m;",
+        "if any legislation implies in this Agreement any term or warranty which cannot be excluded or modified, the liability of  Dynamic Hearing for a breach of any such term or warranty is limited, at the option of Dynamic Hearing, to any one or  more of the following:"
+      ]
+    }
+  },
+  {
+    "contract_id": "OPERALTD_04_30_2020-EX-4.14-SERVICE AGREEMENT",
+    "planned_categories": [
+      "Governing Law",
+      "Termination for Convenience",
+      "Liability Cap",
+      "Indemnification",
+      "IP Ownership Assignment"
+    ],
+    "n_chunks": 7,
+    "clauses": [
+      {
+        "category": "Liability Cap",
+        "text": "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+        "confidence": "high",
+        "chunk_id": 4,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause limits the types of damages (excluding indirect, consequential, and certain economic losses) that either party can recover from the other, which is a contractual limitation on liability.",
+        "risk_level": "high",
+        "risk_factors": [
+          "No overall liability cap specified",
+          "Only excludes indirect/consequential losses, direct losses remain uncapped",
+          "Mutual exclusion prevents buyer from recovering consequential damages for supplier failures",
+          "Confidentiality carve-out may not cover other critical breaches (IP infringement, data breaches, regulatory violations)"
+        ],
+        "risk_reasoning": "This clause excludes consequential losses mutually but fails to establish any overall liability cap on direct damages, leaving the buyer exposed to potentially unlimited liability for direct losses while simultaneously preventing recovery of business losses from supplier performance failures.",
+        "validation_flags": [
+          "keywords_missing"
+        ]
+      },
+      {
+        "category": "Liability Cap",
+        "text": "IN NO EVENT WILL EITHER PARTY BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, EXEMPLARY, SPECIAL, OR INCIDENTAL DAMAGES ARISING FROM OR RELATING TO THIS AGREEMENT. NEITHER PARTIES' TOTAL CUMULATIVE LIABILITY IN CONNECTION WITH THIS AGREEMENT, WHETHER IN AGREEMENT OR TORT OR OTHERWISE, WILL NOT EXCEED THE AGGREGATE AMOUNT OF FEES AND EXPENSES OWED BY PC FINANCIAL TO MOBIMAGIC FOR SERVICES PERFORMED UNDER THIS AGREEMENT.",
+        "confidence": "high",
+        "chunk_id": 5,
+        "classified_category": "Liability Cap",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "This clause explicitly limits both the types of damages (excluding consequential, indirect, exemplary, special, or incidental damages) and caps the total cumulative liability to the aggregate fees paid under the agreement.",
+        "risk_level": "medium",
+        "risk_factors": [
+          "mutual cap benefits vendor disproportionately",
+          "cap based on fees paid creates asymmetry in high-value/low-fee scenarios",
+          "no carve-outs for gross negligence or willful misconduct",
+          "no carve-outs for IP indemnification or data breaches",
+          "double negative wording creates ambiguity"
+        ],
+        "risk_reasoning": "While the mutual exclusion of consequential damages is standard, the liability cap based solely on fees paid disproportionately favors the vendor (MobiMagic) in scenarios where the buyer's potential losses significantly exceed service fees, and the clause lacks standard carve-outs for fundamental breaches, IP infringement, confidentiality violations, or gross negligence that are typically excluded from liability caps to protect the buyer.",
+        "validation_flags": []
+      },
+      {
+        "category": "Governing Law",
+        "text": "This Agreement (and any question about its subsistence, effect or termination) is to be interpreted in accordance with the laws of India, save for that body of law which governs the conflict of laws.",
+        "confidence": "high",
+        "chunk_id": 5,
+        "classified_category": "Governing Law",
+        "classifier_confidence": "high",
+        "classifier_reasoning": "The clause explicitly specifies that the Agreement is to be interpreted in accordance with the laws of India, which directly matches the definition of governing law provisions.",
+        "risk_level": "low",
+        "risk_factors": [
+          "foreign jurisdiction",
+          "standard conflict of laws exclusion"
+        ],
+        "risk_reasoning": "This is standard governing law clause wording with typical exclusion of conflict of laws rules; the only risk is whether Indian law is acceptable to the buyer based on their location, contract subject matter, and enforceability considerations, which is a commercial rather than drafting issue.",
+        "validation_flags": []
+      }
+    ],
+    "validation": {
+      "total_candidates": 5,
+      "dropped": 0,
+      "flagged": 1,
+      "kept": 5
+    },
+    "gold_clauses": {
+      "Governing Law": [
+        "This Agreement (and any question about its subsistence, effect or termination) is to be interpreted in accordance with the laws of India, save for that body of law which governs the conflict of laws."
+      ],
+      "Liability Cap": [
+        "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+        "IN NO EVENT WILL EITHER PARTY BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, EXEMPLARY, SPECIAL, OR INCIDENTAL DAMAGES ARISING FROM OR RELATING TO THIS AGREEMENT. NEITHER PARTIES' TOTAL CUMULATIVE LIABILITY IN CONNECTION WITH THIS AGREEMENT, WHETHER IN AGREEMENT OR TORT OR OTHERWISE, WILL NOT EXCEED THE AGGREGATE AMOUNT OF FEES AND EXPENSES OWED BY PC FINANCIAL TO MOBIMAGIC FOR SERVICES PERFORMED UNDER THIS AGREEMENT.",
+        "Subject to the foregoing as wen as Mobimagic's obligations under this Agreement, Mobimagic shall not in any manner be held or be responsible or liable for any unforeseen contingency, claims, liabilities, demands. losses, damages or expenses arising due to absence of storage or retention of any PC Financial data which shall be the sole responsibility of PC Financial ."
+      ]
+    }
+  }
+]

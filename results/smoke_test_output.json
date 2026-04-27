@@ -1,0 +1,274 @@
+{
+  "contract_id": "WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",
+  "planned_categories": [
+    "Governing Law",
+    "Termination for Convenience",
+    "Liability Cap",
+    "Indemnification",
+    "IP Ownership Assignment"
+  ],
+  "n_chunks": 64,
+  "clauses": [
+    {
+      "category": "Liability Cap",
+      "text": "in no event shall the [ * ] paid or payable to Distributor by Google pursuant to Clause 4.1  (Payments) exceed the [ * ].",
+      "confidence": "high",
+      "chunk_id": 19,
+      "classified_category": "Liability Cap",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause establishes a contractual maximum limit on the amount that can be paid or recovered under a specific payment provision, which is the defining characteristic of a liability cap.",
+      "risk_level": "high",
+      "risk_factors": [
+        "Liability cap appears to favor distributor not buyer",
+        "Clause limits distributor's liability to amounts paid by Google",
+        "Buyer (Google) appears to be the paying party with capped recovery",
+        "Reversed protection - caps what buyer can recover rather than what buyer must pay",
+        "Critical redactions obscure cap amount and liability scope"
+      ],
+      "risk_reasoning": "This liability cap appears inverted for a buyer's perspective, limiting the distributor's liability to amounts Google has paid them rather than capping Google's own liability exposure, while critical terms are redacted making full risk assessment impossible.",
+      "validation_flags": [
+        "keywords_missing"
+      ]
+    },
+    {
+      "category": "Termination for Convenience",
+      "text": "[ * ] may terminate this Agreement immediately upon written notice if there is a Change of Control of [ * ].",
+      "confidence": "medium",
+      "chunk_id": 26,
+      "classified_category": "OTHER",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause allows termination upon a specific triggering event (Change of Control) rather than at will without cause, which distinguishes it from Termination for Convenience and does not fit the other defined categories.",
+      "risk_level": "high",
+      "risk_factors": [
+        "ambiguous party identification",
+        "unilateral termination right",
+        "no reciprocal protection",
+        "undefined Change of Control",
+        "immediate termination without cure period"
+      ],
+      "risk_reasoning": "The redacted party identities create critical ambiguity about whether the buyer or supplier holds the termination right, and if the buyer is subject to this clause without reciprocal protection, it faces unilateral contract termination risk upon any change of control event without definition, notice period, or ability to cure.",
+      "validation_flags": []
+    },
+    {
+      "category": "Termination for Convenience",
+      "text": "If a period of Special Suspension extends for more than [ * ] may then terminate this Agreement (in part) in respect of the affected country or territory only, such termination to take effect upon written notice[ * ].",
+      "confidence": "medium",
+      "chunk_id": 27,
+      "classified_category": "Termination for Convenience",
+      "classifier_confidence": "medium",
+      "classifier_reasoning": "The clause grants a party the right to terminate the agreement (in part) upon written notice after a specified suspension period, which represents termination based on circumstances rather than breach or cause.",
+      "risk_level": "high",
+      "risk_factors": [
+        "missing critical threshold duration for suspension period",
+        "missing notice period specification",
+        "incomplete clause with redacted key terms",
+        "ambiguous scope of 'affected country or territory'",
+        "unclear whether this is mutual or supplier-only termination right"
+      ],
+      "risk_reasoning": "The clause contains multiple redacted critical terms (suspension duration threshold and notice period) making it impossible to assess whether the termination right is balanced, and the incomplete text suggests this may be a unilateral supplier termination right during suspension events, which could expose the buyer to unexpected service discontinuation without adequate protection or transition time.",
+      "validation_flags": []
+    },
+    {
+      "category": "Liability Cap",
+      "text": "Clauses 5.6 (Effect of Termination), 6 (Confidential Information), 7 (Proprietary Rights), 9 (Limitation of Liability), 10 (Indemnification) and 11 (General) shall survive the termination or expiration of this Agreement.",
+      "confidence": "medium",
+      "chunk_id": 28,
+      "classified_category": "OTHER",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause specifies which provisions survive termination but does not itself define governing law, termination rights, liability caps, indemnification obligations, or IP ownership\u2014it merely references other clauses that may contain those provisions.",
+      "risk_level": "medium",
+      "risk_factors": [
+        "survival of uncapped limitation of liability clause",
+        "survival of indemnification obligations",
+        "broad survival of general provisions without time limits"
+      ],
+      "risk_reasoning": "While survival clauses are standard, this clause perpetuates potentially unfavorable provisions (notably limitations of liability and indemnifications) indefinitely without specifying time limits, and without seeing the actual terms of the surviving clauses (especially whether liability caps in Clause 9 favor the supplier), the buyer cannot assess whether post-termination exposure is reasonable.",
+      "validation_flags": []
+    },
+    {
+      "category": "IP Ownership Assignment",
+      "text": "Distributor acknowledges that Google and/or its licensors own all right, title and interest, including all Intellectual Property Rights in and to the Products and the Google Trademarks and all modifications to them. Distributor has, and shall acquire, no rights in the foregoing except those expressly granted by this Agreement.",
+      "confidence": "high",
+      "chunk_id": 31,
+      "classified_category": "IP Ownership Assignment",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "The clause explicitly specifies that Google and its licensors own all intellectual property rights in the Products and Google Trademarks, with the Distributor acquiring no rights except those expressly granted, which directly addresses IP ownership allocation between the parties.",
+      "risk_level": "low",
+      "risk_factors": [
+        "standard IP ownership reservation",
+        "broad scope of 'modifications' ownership retained by licensor"
+      ],
+      "risk_reasoning": "This is market-standard language for a distribution agreement where the buyer/distributor is clearly licensing rather than purchasing IP rights, with Google appropriately reserving ownership of its products and trademarks while limiting distributor rights to those expressly granted in the agreement.",
+      "validation_flags": []
+    },
+    {
+      "category": "IP Ownership Assignment",
+      "text": "Google acknowledges that Distributor and/or its licensors own all right, title and interest, including all Intellectual Property Rights, in and to the Distributor Apps and all [ * ] to [ * ].",
+      "confidence": "high",
+      "chunk_id": 32,
+      "classified_category": "IP Ownership Assignment",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "The clause explicitly acknowledges ownership of intellectual property rights in the Distributor Apps, which directly addresses IP ownership allocation between the parties.",
+      "risk_level": "high",
+      "risk_factors": [
+        "redacted scope uncertainty",
+        "one-sided acknowledgment without reciprocal protection",
+        "missing buyer/Google IP ownership clause",
+        "unclear what rights Google retains"
+      ],
+      "risk_reasoning": "The clause contains critical redactions ([*]) that obscure the full scope of what Google is acknowledging Distributor owns, and appears to be a one-sided acknowledgment without a reciprocal clause protecting Google's IP rights, which is atypical in balanced commercial agreements where both parties' IP should be clearly delineated.",
+      "validation_flags": []
+    },
+    {
+      "category": "Liability Cap",
+      "text": "Nothing in this Agreement shall exclude or limit either party's liability under Clause 10 (Indemnities), or Distributor's liability under Clause  2 (License Grants and Restrictions), Clause 3.5 (Exclusivity), Clause 3.6 (End User License Agreement) and Clause 3.7 (Accurate  Reproduction) or Clause [ * ].",
+      "confidence": "high",
+      "chunk_id": 40,
+      "classified_category": "Liability Cap",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause explicitly carves out exceptions to liability limitations by stating that certain liabilities (indemnities and specific contractual obligations) cannot be excluded or limited, which is a characteristic feature of liability cap provisions that define the scope and boundaries of liability limitations.",
+      "risk_level": "medium",
+      "risk_factors": [
+        "Asymmetric carve-outs favor Distributor",
+        "Buyer's liability appears uncapped for indemnities",
+        "Multiple Distributor obligations excluded from cap while Buyer exclusions unclear",
+        "Redacted clause creates uncertainty"
+      ],
+      "risk_reasoning": "The clause carves out multiple specific Distributor obligations from the liability cap while only mentioning mutual indemnity exclusions, creating an imbalance that potentially leaves the buyer with broader uncapped exposure, and the redacted clause reference introduces material uncertainty about additional carve-outs.",
+      "validation_flags": []
+    },
+    {
+      "category": "Liability Cap",
+      "text": "Subject to Clauses 9.1 and 9.2, neither party shall be liable under this Agreement (whether in contract, tort or otherwise) for any: (a) loss of anticipated savings; (b) loss of business opportunity (which for the avoidance of doubt shall not include loss of advertising revenue); (c) loss of or corruption of data; (d) loss or damage resulting from third party claims; or (e) indirect or consequential losses; suffered or incurred by the other party (whether or not such losses were within the contemplation of the parties at the date of this Agreement).",
+      "confidence": "high",
+      "chunk_id": 41,
+      "classified_category": "Liability Cap",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause limits the types of damages (loss of savings, business opportunity, data, indirect/consequential losses) that either party can recover from the other under the agreement.",
+      "risk_level": "medium",
+      "risk_factors": [
+        "Loss of data excluded from recovery",
+        "Third party claims excluded despite potential direct impact",
+        "Ambiguous carve-out for loss of advertising revenue suggests specific context not fully visible",
+        "Mutual exclusion may limit buyer's recovery for supplier failures"
+      ],
+      "risk_reasoning": "While mutual exclusion of consequential losses is standard, the specific exclusion of data loss/corruption and third party claims is concerning for a buyer, as these can represent direct and substantial losses from supplier performance failures, particularly in technology or data-processing contracts.",
+      "validation_flags": [
+        "keywords_missing"
+      ]
+    },
+    {
+      "category": "Liability Cap",
+      "text": "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+      "confidence": "high",
+      "chunk_id": 42,
+      "classified_category": "Liability Cap",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause explicitly limits each party's total liability under the agreement to a specified monetary amount or percentage of payments, which is the defining characteristic of a liability cap provision.",
+      "risk_level": "medium",
+      "risk_factors": [
+        "Blanked-out cap amounts prevent assessment of adequacy",
+        "Cap based on payments to Distributor may be minimal if buyer is the paying party",
+        "Unknown carve-outs in Clauses 9.1 and 9.2 could exclude critical liabilities",
+        "Mutual cap may not reflect asymmetric risk exposure between buyer and supplier"
+      ],
+      "risk_reasoning": "While the structure of a mutual liability cap with dual thresholds is market-standard, the redacted amounts prevent assessment of whether the cap is adequate for the buyer's risk exposure, and critically, if the buyer is paying the Distributor, the percentage-based cap may protect the supplier more than the buyer, plus unknown carve-outs in referenced clauses could exclude significant liabilities from the cap entirely.",
+      "validation_flags": []
+    },
+    {
+      "category": "Indemnification",
+      "text": "Google [ * ] and will indemnify Distributor against all liabilities, costs, damages and expenses (including settlement costs approved in writing by Google and reasonable legal fees [ * ]) suffered or incurred by Distributor arising from any claim from a third party that any Products or any Google Trademark infringe(s) any copyright, trade secret or trademark of such third party (an \"IP Claim\"), provided that Distributor: (a) promptly notifies Google; (b) provides Google with reasonable information, assistance and cooperation in responding to and, where applicable, defending such IP Claim; and (c) gives Google full control and sole authority over the defence and settlement of such IP Claim.",
+      "confidence": "high",
+      "chunk_id": 43,
+      "classified_category": "Indemnification",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause explicitly states that Google will indemnify Distributor against liabilities, costs, damages, and expenses arising from third-party IP infringement claims, which is the core definition of an indemnification provision.",
+      "risk_level": "high",
+      "risk_factors": [
+        "Buyer receives indemnity but is providing it (role reversal)",
+        "Limited IP scope excludes patents",
+        "Redacted terms create uncertainty about scope and obligations",
+        "Google controls defense and settlement entirely",
+        "Requires Google's written approval for settlements"
+      ],
+      "risk_reasoning": "This clause is problematic for the buyer because it appears the buyer is the 'Distributor' receiving indemnity from Google (the supplier), meaning the buyer is actually the one being protected, but the narrow IP coverage (excluding patents), multiple redactions obscuring key terms, and Google's complete control over defense strategy create significant uncertainty and potential gaps in protection that are unfavorable compared to standard indemnification provisions.",
+      "validation_flags": []
+    },
+    {
+      "category": "Termination for Convenience",
+      "text": "if any suspension under this Clause continues for more than 30 days, Distributor may, at any time until use of the distribution or use of the Products or the Google Trademarks is reinstated, terminate this Agreement immediately upon written notice.",
+      "confidence": "medium",
+      "chunk_id": 45,
+      "classified_category": "Termination for Convenience",
+      "classifier_confidence": "medium",
+      "classifier_reasoning": "This clause grants the Distributor the right to terminate the agreement upon written notice if a suspension continues beyond 30 days, which represents a termination right triggered by specific circumstances rather than a breach or cause requiring fault.",
+      "risk_level": "high",
+      "risk_factors": [
+        "Distributor termination right not buyer termination right",
+        "Clause appears to grant termination rights to counterparty not buyer",
+        "Buyer lacks corresponding termination for convenience protection",
+        "Asymmetric termination rights favor distributor",
+        "30-day threshold may be too short for complex suspension scenarios"
+      ],
+      "risk_reasoning": "This clause grants the Distributor (likely the counterparty, not the buyer) unilateral termination rights after only 30 days of suspension, creating significant asymmetry and supply chain risk for the buyer who appears to lack equivalent termination for convenience protections.",
+      "validation_flags": []
+    },
+    {
+      "category": "Indemnification",
+      "text": "Distributor [ * ] and will indemnify Google against all liabilities, costs, damages and expenses (including settlement costs approved in writing by Distributor and reasonable legal fees [ * ]) suffered or incurred by Google or any Google Group Company arising from: (a) Distributor's improper (ie not in accordance with the requirements of this Agreement including the Exhibits) or unauthorised, replication, packaging, marketing, distribution, or installation of the Products, including any breach of Clause 8.5 and any claims based on representations, warranties, or misrepresentations made by Distributor, (b) any claim from a third party that the Distributor App(s) infringe any third party copyright, trademark, or trade secret, or (c) any End",
+      "confidence": "high",
+      "chunk_id": 46,
+      "classified_category": "Indemnification",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause explicitly states that Distributor will indemnify Google against liabilities, costs, damages, and expenses arising from specified circumstances, which is the defining characteristic of an indemnification provision.",
+      "risk_level": "low",
+      "risk_factors": [
+        "incomplete clause text",
+        "requires distributor approval for settlements",
+        "standard indemnification scope"
+      ],
+      "risk_reasoning": "This is a reverse indemnification clause where the Distributor indemnifies Google (the buyer/client), which is favorable to Google's position, covering standard distributor-related risks with reasonable settlement approval controls, though the clause appears truncated at item (c) and contains redacted terms [*] that prevent full assessment.",
+      "validation_flags": []
+    },
+    {
+      "category": "Indemnification",
+      "text": "The indemnification obligations set out in Clause 10.4(b) shall exist only if Google: (a) promptly notifies Distributor of such claim, (b) provides Distributor with reasonable information, assistance and cooperation in responding to and, where applicable, defending the lawsuit or proceeding, and (c) gives Distributor full control and sole authority over the defense and settlement of such claim.",
+      "confidence": "high",
+      "chunk_id": 47,
+      "classified_category": "Indemnification",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "This clause sets forth procedural conditions and requirements (notice, cooperation, control) that must be met for indemnification obligations to apply, which are standard components of indemnification provisions.",
+      "risk_level": "medium",
+      "risk_factors": [
+        "Distributor has sole control over defense and settlement",
+        "Buyer must provide cooperation without defined limits",
+        "Prompt notification requirement without defined timeframe",
+        "Conditions precedent may void indemnification protection"
+      ],
+      "risk_reasoning": "While the conditions for indemnification are relatively standard, granting the Distributor (indemnifying party) 'full control and sole authority' over defense and settlement creates risk that the buyer's interests may not be adequately protected, and the undefined scope of 'reasonable cooperation' could impose significant burdens on the buyer without corresponding control over outcomes.",
+      "validation_flags": []
+    },
+    {
+      "category": "Governing Law",
+      "text": "This Agreement is governed by English law and the parties submit to the exclusive jurisdiction of the English courts in relation to any dispute (contractual or non-contractual) concerning this Agreement save that either party may apply to any court for an injunction or other relief to protect its Intellectual Property Rights.",
+      "confidence": "high",
+      "chunk_id": 58,
+      "classified_category": "Governing Law",
+      "classifier_confidence": "high",
+      "classifier_reasoning": "The clause explicitly states that the agreement is governed by English law and specifies the jurisdiction of English courts for dispute resolution, which is the defining characteristic of a governing law provision.",
+      "risk_level": "low",
+      "risk_factors": [
+        "Carve-out for IP injunctions allows either party to seek relief in any jurisdiction",
+        "Exclusive jurisdiction may limit forum choice for buyer"
+      ],
+      "risk_reasoning": "This is market-standard governing law and jurisdiction wording with a balanced IP carve-out that benefits both parties equally, and English law is a well-established, neutral choice for international commercial contracts.",
+      "validation_flags": []
+    }
+  ],
+  "validation": {
+    "total_candidates": 15,
+    "dropped": 1,
+    "flagged": 2,
+    "kept": 14
+  }
+}

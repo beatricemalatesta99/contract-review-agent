@@ -1,0 +1,102 @@
+{
+  "A": {
+    "per_category": {
+      "Governing Law": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.889,
+        "tp": 8,
+        "fp": 0,
+        "fn": 2
+      },
+      "Termination for Convenience": {
+        "precision": 0.6,
+        "recall": 0.6,
+        "f1": 0.6,
+        "tp": 6,
+        "fp": 4,
+        "fn": 4
+      },
+      "Liability Cap": {
+        "precision": 0.923,
+        "recall": 0.6,
+        "f1": 0.727,
+        "tp": 12,
+        "fp": 1,
+        "fn": 8
+      },
+      "IP Ownership Assignment": {
+        "precision": 0.5,
+        "recall": 0.333,
+        "f1": 0.4,
+        "tp": 8,
+        "fp": 8,
+        "fn": 16
+      }
+    },
+    "micro": {
+      "precision": 0.723,
+      "recall": 0.531,
+      "f1": 0.613,
+      "tp": 34,
+      "fp": 13,
+      "fn": 30
+    },
+    "macro": {
+      "precision": 0.756,
+      "recall": 0.583,
+      "f1": 0.654
+    },
+    "n_contracts": 10
+  },
+  "C": {
+    "per_category": {
+      "Governing Law": {
+        "precision": 0.692,
+        "recall": 0.9,
+        "f1": 0.783,
+        "tp": 9,
+        "fp": 4,
+        "fn": 1
+      },
+      "Liability Cap": {
+        "precision": 0.882,
+        "recall": 0.625,
+        "f1": 0.732,
+        "tp": 15,
+        "fp": 2,
+        "fn": 9
+      },
+      "Termination for Convenience": {
+        "precision": 0.6,
+        "recall": 0.667,
+        "f1": 0.632,
+        "tp": 6,
+        "fp": 4,
+        "fn": 3
+      },
+      "IP Ownership Assignment": {
+        "precision": 0.353,
+        "recall": 0.4,
+        "f1": 0.375,
+        "tp": 6,
+        "fp": 11,
+        "fn": 9
+      }
+    },
+    "micro": {
+      "precision": 0.632,
+      "recall": 0.621,
+      "f1": 0.626,
+      "tp": 36,
+      "fp": 21,
+      "fn": 22
+    },
+    "macro": {
+      "precision": 0.632,
+      "recall": 0.648,
+      "f1": 0.631
+    },
+    "n_contracts": 10
+  }
+}
